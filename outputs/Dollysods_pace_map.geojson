@@ -1,0 +1,6773 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.301486,
+            39.066091
+          ],
+          [
+            -79.302303,
+            39.064906
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 0,
+        "distance_m": 149.4574118482038,
+        "grade_pct": 0.314470854397895,
+        "recommended_speed_mph": 2.765988711751567,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.302303,
+            39.064906
+          ],
+          [
+            -79.303112,
+            39.06372
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 1,
+        "distance_m": 149.23149889467865,
+        "grade_pct": 0.37525589714485813,
+        "recommended_speed_mph": 2.760107674334009,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.303112,
+            39.06372
+          ],
+          [
+            -79.303219,
+            39.06365
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 2,
+        "distance_m": 12.08000717091497,
+        "grade_pct": -6.622512625043091,
+        "recommended_speed_mph": 2.8433936574859344,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.303219,
+            39.06365
+          ],
+          [
+            -79.303758,
+            39.063831
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 3,
+        "distance_m": 50.7013073471976,
+        "grade_pct": -4.713882392880693,
+        "recommended_speed_mph": 2.836450589685224,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.303758,
+            39.063831
+          ],
+          [
+            -79.304082,
+            39.063845
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 4,
+        "distance_m": 28.016363386440435,
+        "grade_pct": -10.636641019020693,
+        "recommended_speed_mph": 2.8404983816130014,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.304082,
+            39.063845
+          ],
+          [
+            -79.3056,
+            39.064278
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 5,
+        "distance_m": 139.62285290031795,
+        "grade_pct": -2.692968895775534,
+        "recommended_speed_mph": 2.8232545026156055,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.3056,
+            39.064278
+          ],
+          [
+            -79.307459,
+            39.064522
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 6,
+        "distance_m": 162.77566735867353,
+        "grade_pct": -2.4389394707577496,
+        "recommended_speed_mph": 2.8211704296003575,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.307459,
+            39.064522
+          ],
+          [
+            -79.308816,
+            39.065129
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 7,
+        "distance_m": 135.20884621292387,
+        "grade_pct": -1.5753407115432616,
+        "recommended_speed_mph": 2.8133750635654717,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.308816,
+            39.065129
+          ],
+          [
+            -79.310262,
+            39.06547
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 8,
+        "distance_m": 130.47152578138213,
+        "grade_pct": 0.38322537964168457,
+        "recommended_speed_mph": 2.7593362125516276,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.310262,
+            39.06547
+          ],
+          [
+            -79.313254,
+            39.065917
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 9,
+        "distance_m": 263.05105537292314,
+        "grade_pct": 1.2012877102964676,
+        "recommended_speed_mph": 2.6796488183306493,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.313254,
+            39.065917
+          ],
+          [
+            -79.314421,
+            39.065701
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 10,
+        "distance_m": 103.57533687922253,
+        "grade_pct": 2.828858769164987,
+        "recommended_speed_mph": 2.518177735230369,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.314421,
+            39.065701
+          ],
+          [
+            -79.315419,
+            39.065205
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 11,
+        "distance_m": 102.30206563016108,
+        "grade_pct": 0.17594952642556225,
+        "recommended_speed_mph": 2.7793705239750244,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.315419,
+            39.065205
+          ],
+          [
+            -79.316407,
+            39.065017
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 12,
+        "distance_m": 87.82333853624486,
+        "grade_pct": -1.195581968871085,
+        "recommended_speed_mph": 2.8095996218899484,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.316407,
+            39.065017
+          ],
+          [
+            -79.317898,
+            39.064829
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 13,
+        "distance_m": 130.4123662613654,
+        "grade_pct": -2.0550198396285158,
+        "recommended_speed_mph": 2.8178404738294507,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.317898,
+            39.064829
+          ],
+          [
+            -79.318652,
+            39.064564
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 14,
+        "distance_m": 71.45565338068506,
+        "grade_pct": -6.493537992410402,
+        "recommended_speed_mph": 2.8430934118617195,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.318652,
+            39.064564
+          ],
+          [
+            -79.319739,
+            39.064501
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 15,
+        "distance_m": 94.10812777699937,
+        "grade_pct": -7.300113350761177,
+        "recommended_speed_mph": 2.8445688373913667,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.319739,
+            39.064501
+          ],
+          [
+            -79.320728,
+            39.064724
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 16,
+        "distance_m": 88.91365729489988,
+        "grade_pct": -9.694798597036607,
+        "recommended_speed_mph": 2.8433073257186168,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.320728,
+            39.064724
+          ],
+          [
+            -79.321815,
+            39.064599
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 17,
+        "distance_m": 94.87057468975769,
+        "grade_pct": -8.3903781820976,
+        "recommended_speed_mph": 2.8450411647497917,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.321815,
+            39.064599
+          ],
+          [
+            -79.322327,
+            39.064187
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 18,
+        "distance_m": 63.66131983589163,
+        "grade_pct": -2.937419464158836,
+        "recommended_speed_mph": 2.825170308978387,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.322327,
+            39.064187
+          ],
+          [
+            -79.322875,
+            39.06395
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 19,
+        "distance_m": 54.156702759140984,
+        "grade_pct": 7.182859741850307,
+        "recommended_speed_mph": 2.067050416700618,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.322875,
+            39.06395
+          ],
+          [
+            -79.323405,
+            39.064089
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 20,
+        "distance_m": 48.2981815539461,
+        "grade_pct": 8.923731414579118,
+        "recommended_speed_mph": 1.8788660249761904,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.323405,
+            39.064089
+          ],
+          [
+            -79.323683,
+            39.063336
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 21,
+        "distance_m": 87.10197790988178,
+        "grade_pct": 4.420106285052972,
+        "recommended_speed_mph": 2.356540694783638,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.323683,
+            39.063336
+          ],
+          [
+            -79.324087,
+            39.063169
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 22,
+        "distance_m": 39.515361727485804,
+        "grade_pct": 9.667126487020992,
+        "recommended_speed_mph": 1.797147465778929,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.324087,
+            39.063169
+          ],
+          [
+            -79.324635,
+            39.063273
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 23,
+        "distance_m": 48.70568315913945,
+        "grade_pct": 9.074916340991052,
+        "recommended_speed_mph": 1.8623127419932957,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.324635,
+            39.063273
+          ],
+          [
+            -79.325309,
+            39.063315
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 24,
+        "distance_m": 58.37846573873429,
+        "grade_pct": 8.787486849960347,
+        "recommended_speed_mph": 1.893754662013665,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.325309,
+            39.063315
+          ],
+          [
+            -79.326468,
+            39.062694
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 25,
+        "distance_m": 121.57822801969877,
+        "grade_pct": 5.93033811845969,
+        "recommended_speed_mph": 2.19968586571868,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.326468,
+            39.062694
+          ],
+          [
+            -79.327564,
+            39.062757
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 26,
+        "distance_m": 94.88542751294487,
+        "grade_pct": 10.391479765061645,
+        "recommended_speed_mph": 1.716739633890839,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.327564,
+            39.062757
+          ],
+          [
+            -79.328148,
+            39.06305
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 27,
+        "distance_m": 60.03140325576809,
+        "grade_pct": 16.15820966015487,
+        "recommended_speed_mph": 1.0490466472345639,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.328148,
+            39.06305
+          ],
+          [
+            -79.329253,
+            39.063462
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 28,
+        "distance_m": 105.8322383450814,
+        "grade_pct": 5.707145662275106,
+        "recommended_speed_mph": 2.223078366017492,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.329253,
+            39.063462
+          ],
+          [
+            -79.330357,
+            39.063866
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 29,
+        "distance_m": 105.37161491215129,
+        "grade_pct": 0.018980443658269126,
+        "recommended_speed_mph": 2.794500339573507,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.330357,
+            39.063866
+          ],
+          [
+            -79.332091,
+            39.064759
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 30,
+        "distance_m": 179.64416585354164,
+        "grade_pct": -2.393620733281057,
+        "recommended_speed_mph": 2.8207886476150206,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.332091,
+            39.064759
+          ],
+          [
+            -79.33387,
+            39.065157
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 31,
+        "distance_m": 159.8392825490194,
+        "grade_pct": -2.78404653038598,
+        "recommended_speed_mph": 2.8239785763465677,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.33387,
+            39.065157
+          ],
+          [
+            -79.33475,
+            39.065457
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 32,
+        "distance_m": 82.97554438970403,
+        "grade_pct": 0.09641395014439218,
+        "recommended_speed_mph": 2.7870412707746244,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.33475,
+            39.065457
+          ],
+          [
+            -79.335568,
+            39.06554
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 33,
+        "distance_m": 71.22223554998955,
+        "grade_pct": 5.50389912606534,
+        "recommended_speed_mph": 2.244316572856323,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.335568,
+            39.06554
+          ],
+          [
+            -79.337104,
+            39.065338
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 34,
+        "distance_m": 134.49890503548085,
+        "grade_pct": 3.13757201137553,
+        "recommended_speed_mph": 2.4871104072033914,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.337104,
+            39.065338
+          ],
+          [
+            -79.338308,
+            39.065087
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 35,
+        "distance_m": 107.6290388281705,
+        "grade_pct": 4.115989558424421,
+        "recommended_speed_mph": 2.3877206001988314,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.338308,
+            39.065087
+          ],
+          [
+            -79.339413,
+            39.064773
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 36,
+        "distance_m": 101.58904944999387,
+        "grade_pct": 4.144147447774245,
+        "recommended_speed_mph": 2.3848394001196027,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.339413,
+            39.064773
+          ],
+          [
+            -79.340517,
+            39.064459
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 37,
+        "distance_m": 101.50837585692837,
+        "grade_pct": 3.5169511578351873,
+        "recommended_speed_mph": 2.448739498189155,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.340517,
+            39.064459
+          ],
+          [
+            -79.340877,
+            39.064494
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 38,
+        "distance_m": 31.323630209575438,
+        "grade_pct": 8.683540131847618,
+        "recommended_speed_mph": 1.9050954553198132,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.340877,
+            39.064494
+          ],
+          [
+            -79.341748,
+            39.064285
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 39,
+        "distance_m": 78.70782930371783,
+        "grade_pct": 2.6172745687736043,
+        "recommended_speed_mph": 2.5393894703677775,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.341748,
+            39.064285
+          ],
+          [
+            -79.342952,
+            39.064187
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 40,
+        "distance_m": 104.51838013893195,
+        "grade_pct": 1.7987266904644936,
+        "recommended_speed_mph": 2.6208299342064527,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.342952,
+            39.064187
+          ],
+          [
+            -79.343392,
+            39.064299
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 41,
+        "distance_m": 39.977239224549464,
+        "grade_pct": 5.403074454110017,
+        "recommended_speed_mph": 2.25482966373677,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.343392,
+            39.064299
+          ],
+          [
+            -79.344147,
+            39.064766
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 42,
+        "distance_m": 83.33915389502228,
+        "grade_pct": 3.131781255287968,
+        "recommended_speed_mph": 2.4876944504046863,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.344147,
+            39.064766
+          ],
+          [
+            -79.344946,
+            39.065094
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 43,
+        "distance_m": 78.03017854756604,
+        "grade_pct": 3.191073051924573,
+        "recommended_speed_mph": 2.481712072715233,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.344946,
+            39.065094
+          ],
+          [
+            -79.345755,
+            39.065526
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 44,
+        "distance_m": 84.76902957266036,
+        "grade_pct": 1.8874817938412967,
+        "recommended_speed_mph": 2.6120470200951313,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.345755,
+            39.065526
+          ],
+          [
+            -79.346249,
+            39.06704
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 45,
+        "distance_m": 173.6673518145899,
+        "grade_pct": 0.253357925598938,
+        "recommended_speed_mph": 2.771895989934068,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.346249,
+            39.06704
+          ],
+          [
+            -79.346617,
+            39.067619
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 46,
+        "distance_m": 71.79399406173586,
+        "grade_pct": -0.7939382777754247,
+        "recommended_speed_mph": 2.805375625048184,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.346617,
+            39.067619
+          ],
+          [
+            -79.347515,
+            39.067828
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 47,
+        "distance_m": 80.93438954084516,
+        "grade_pct": -1.173790282955812,
+        "recommended_speed_mph": 2.80937653571137,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.347515,
+            39.067828
+          ],
+          [
+            -79.348566,
+            39.068191
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 48,
+        "distance_m": 99.30749176992501,
+        "grade_pct": -0.6948116277054327,
+        "recommended_speed_mph": 2.8042965987458777,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.348566,
+            39.068191
+          ],
+          [
+            -79.349303,
+            39.068379
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 49,
+        "distance_m": 66.97228349291645,
+        "grade_pct": 0.17917860007388048,
+        "recommended_speed_mph": 2.7790589017869904,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.349303,
+            39.068379
+          ],
+          [
+            -79.349519,
+            39.068546
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 50,
+        "distance_m": 26.316486939981612,
+        "grade_pct": 4.635877132013881,
+        "recommended_speed_mph": 2.3343359898682405,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.349519,
+            39.068546
+          ],
+          [
+            -79.349932,
+            39.068651
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 51,
+        "distance_m": 37.517593300967626,
+        "grade_pct": 5.4907573187718715,
+        "recommended_speed_mph": 2.245687730512315,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.349932,
+            39.068651
+          ],
+          [
+            -79.350543,
+            39.068867
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 52,
+        "distance_m": 57.958809403343565,
+        "grade_pct": 4.554958991009872,
+        "recommended_speed_mph": 2.342671204365924,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.350543,
+            39.068867
+          ],
+          [
+            -79.350731,
+            39.069153
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 53,
+        "distance_m": 35.703886651873674,
+        "grade_pct": 7.422161138473768,
+        "recommended_speed_mph": 2.041446918873633,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.350731,
+            39.069153
+          ],
+          [
+            -79.351207,
+            39.069578
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 54,
+        "distance_m": 62.62540513511605,
+        "grade_pct": 3.1137523115305465,
+        "recommended_speed_mph": 2.4895124948267755,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.351207,
+            39.069578
+          ],
+          [
+            -79.35242,
+            39.07015
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 55,
+        "distance_m": 122.51998433747755,
+        "grade_pct": 0.8570030478519828,
+        "recommended_speed_mph": 2.71330561102597,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.35242,
+            39.07015
+          ],
+          [
+            -79.353417,
+            39.070687
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 56,
+        "distance_m": 104.75431191339923,
+        "grade_pct": 0.13364604992664983,
+        "recommended_speed_mph": 2.7834516090597985,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.353417,
+            39.070687
+          ],
+          [
+            -79.353812,
+            39.070708
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 57,
+        "distance_m": 34.17952781290971,
+        "grade_pct": -0.6144028704829525,
+        "recommended_speed_mph": 2.80341069820837,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.353812,
+            39.070708
+          ],
+          [
+            -79.35401,
+            39.070778
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 58,
+        "distance_m": 18.7817827066352,
+        "grade_pct": 0.9583754791085201,
+        "recommended_speed_mph": 2.7034137053325993,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.35401,
+            39.070778
+          ],
+          [
+            -79.354271,
+            39.070722
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 59,
+        "distance_m": 23.3762774136753,
+        "grade_pct": 2.395591009167989,
+        "recommended_speed_mph": 2.561542997222767,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.354271,
+            39.070722
+          ],
+          [
+            -79.354801,
+            39.070966
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 60,
+        "distance_m": 53.193423375464214,
+        "grade_pct": 1.5227446338292316,
+        "recommended_speed_mph": 2.6480661301479946,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.354801,
+            39.070966
+          ],
+          [
+            -79.355394,
+            39.071029
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 61,
+        "distance_m": 51.66953619151136,
+        "grade_pct": 1.5870086330185633,
+        "recommended_speed_mph": 2.641734039808035,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.355394,
+            39.071029
+          ],
+          [
+            -79.355672,
+            39.071231
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 62,
+        "distance_m": 32.87051638691139,
+        "grade_pct": 2.0078784045597935,
+        "recommended_speed_mph": 2.6001144334627746,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.355672,
+            39.071231
+          ],
+          [
+            -79.356642,
+            39.071406
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 63,
+        "distance_m": 85.9689369513849,
+        "grade_pct": 0.9887292202770644,
+        "recommended_speed_mph": 2.7004488494008756,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.356642,
+            39.071406
+          ],
+          [
+            -79.358017,
+            39.071524
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 64,
+        "distance_m": 119.42308032866914,
+        "grade_pct": 0.9629629355021901,
+        "recommended_speed_mph": 2.7029657043217377,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.358017,
+            39.071524
+          ],
+          [
+            -79.358654,
+            39.071608
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 65,
+        "distance_m": 55.778047833997746,
+        "grade_pct": 1.3266868037446184,
+        "recommended_speed_mph": 2.6673466289801406,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.358654,
+            39.071608
+          ],
+          [
+            -79.359427,
+            39.071552
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 66,
+        "distance_m": 67.02082272910216,
+        "grade_pct": -0.22381103945320133,
+        "recommended_speed_mph": 2.798971970695404,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.359427,
+            39.071552
+          ],
+          [
+            -79.360478,
+            39.071789
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 67,
+        "distance_m": 94.47953170785252,
+        "grade_pct": -0.7091483074573277,
+        "recommended_speed_mph": 2.804453552891181,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.360478,
+            39.071789
+          ],
+          [
+            -79.361358,
+            39.071622
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 68,
+        "distance_m": 78.20444208134867,
+        "grade_pct": -0.5370538921090782,
+        "recommended_speed_mph": 2.802549528027771,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.361358,
+            39.071622
+          ],
+          [
+            -79.362113,
+            39.071789
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 69,
+        "distance_m": 67.77063508470883,
+        "grade_pct": 0.20657914718503362,
+        "recommended_speed_mph": 2.776413990612295,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.362113,
+            39.071789
+          ],
+          [
+            -79.363011,
+            39.072138
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 70,
+        "distance_m": 86.69229116171825,
+        "grade_pct": 0.2999113260427961,
+        "recommended_speed_mph": 2.767396559017981,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.363011,
+            39.072138
+          ],
+          [
+            -79.363954,
+            39.072054
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 71,
+        "distance_m": 81.94004910104287,
+        "grade_pct": -0.25628493307448635,
+        "recommended_speed_mph": 2.7993495665033477,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.363954,
+            39.072054
+          ],
+          [
+            -79.364377,
+            39.071692
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 72,
+        "distance_m": 54.34800456181049,
+        "grade_pct": -1.3431955890299199,
+        "recommended_speed_mph": 2.811092370140724,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.364377,
+            39.071692
+          ],
+          [
+            -79.364664,
+            39.071336
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 73,
+        "distance_m": 46.69957240581805,
+        "grade_pct": -2.5696166756562078,
+        "recommended_speed_mph": 2.8222543768176815,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.364664,
+            39.071336
+          ],
+          [
+            -79.365527,
+            39.069809
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 74,
+        "distance_m": 185.42030101010474,
+        "grade_pct": -0.8035797546886787,
+        "recommended_speed_mph": 2.805479803901712,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.365527,
+            39.069809
+          ],
+          [
+            -79.366344,
+            39.068239
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 75,
+        "distance_m": 188.28578626248418,
+        "grade_pct": -0.7594837764368144,
+        "recommended_speed_mph": 2.805002216360346,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.366344,
+            39.068239
+          ],
+          [
+            -79.366218,
+            39.067312
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 76,
+        "distance_m": 103.65007689365943,
+        "grade_pct": -1.5050640064651752,
+        "recommended_speed_mph": 2.812692401691741,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.366218,
+            39.067312
+          ],
+          [
+            -79.366083,
+            39.066377
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 77,
+        "distance_m": 104.61848952444352,
+        "grade_pct": -1.4051053563113909,
+        "recommended_speed_mph": 2.8117088882616335,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.366083,
+            39.066377
+          ],
+          [
+            -79.366524,
+            39.065756
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 78,
+        "distance_m": 78.852769676353,
+        "grade_pct": -0.7989573512581527,
+        "recommended_speed_mph": 2.8054298746150765,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.366524,
+            39.065756
+          ],
+          [
+            -79.366766,
+            39.064975
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 79,
+        "distance_m": 89.32114126234555,
+        "grade_pct": -0.16793336703964096,
+        "recommended_speed_mph": 2.7983186099931183,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.366766,
+            39.064975
+          ],
+          [
+            -79.367674,
+            39.064738
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 80,
+        "distance_m": 82.7035966903182,
+        "grade_pct": -0.024182745128813892,
+        "recommended_speed_mph": 2.7966166574942166,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.367674,
+            39.064738
+          ],
+          [
+            -79.368123,
+            39.063587
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 81,
+        "distance_m": 133.72724706352253,
+        "grade_pct": -0.05982326097083716,
+        "recommended_speed_mph": 2.7970414633790495,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.368123,
+            39.063587
+          ],
+          [
+            -79.368518,
+            39.063134
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 82,
+        "distance_m": 60.83006870762506,
+        "grade_pct": -0.7068872502295285,
+        "recommended_speed_mph": 2.804428819534621,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.368518,
+            39.063134
+          ],
+          [
+            -79.368563,
+            39.062436
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 83,
+        "distance_m": 77.71124091176218,
+        "grade_pct": -0.8106935272278659,
+        "recommended_speed_mph": 2.805556582479874,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.368563,
+            39.062436
+          ],
+          [
+            -79.368841,
+            39.062088
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 84,
+        "distance_m": 45.53536883976031,
+        "grade_pct": -1.8886417787154723,
+        "recommended_speed_mph": 2.816329997336277,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.368841,
+            39.062088
+          ],
+          [
+            -79.369003,
+            39.061279
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 85,
+        "distance_m": 91.03758749621045,
+        "grade_pct": -0.8897423825446414,
+        "recommended_speed_mph": 2.8064047399181016,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.369003,
+            39.061279
+          ],
+          [
+            -79.369991,
+            39.059876
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 86,
+        "distance_m": 177.8057691832341,
+        "grade_pct": -0.5342908750171331,
+        "recommended_speed_mph": 2.802518602878224,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.369991,
+            39.059876
+          ],
+          [
+            -79.371671,
+            39.059311
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 87,
+        "distance_m": 158.07515155679738,
+        "grade_pct": -0.7844370147919608,
+        "recommended_speed_mph": 2.8052728273863305,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.371671,
+            39.059311
+          ],
+          [
+            -79.371626,
+            39.058509
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 88,
+        "distance_m": 89.26293322578634,
+        "grade_pct": -2.7334974460543333,
+        "recommended_speed_mph": 2.823578215273972,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.371626,
+            39.058509
+          ],
+          [
+            -79.372048,
+            39.057609
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 89,
+        "distance_m": 106.50235458164809,
+        "grade_pct": -3.5586067696695185,
+        "recommended_speed_mph": 2.829642923839855,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.372048,
+            39.057609
+          ],
+          [
+            -79.372264,
+            39.056528
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 90,
+        "distance_m": 121.64001774242858,
+        "grade_pct": -3.715882391246467,
+        "recommended_speed_mph": 2.830685217454141,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.372264,
+            39.056528
+          ],
+          [
+            -79.372479,
+            39.055447
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 91,
+        "distance_m": 121.6268521734004,
+        "grade_pct": -3.4696285602982457,
+        "recommended_speed_mph": 2.8290371232818563,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.372479,
+            39.055447
+          ],
+          [
+            -79.371941,
+            39.054198
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 92,
+        "distance_m": 146.44593227497367,
+        "grade_pct": -1.5364032070042721,
+        "recommended_speed_mph": 2.8129977260793133,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.371941,
+            39.054198
+          ],
+          [
+            -79.372497,
+            39.053382
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 93,
+        "distance_m": 102.65385058269284,
+        "grade_pct": -1.7047582629063553,
+        "recommended_speed_mph": 2.8146131940778183,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.372497,
+            39.053382
+          ],
+          [
+            -79.373081,
+            39.052343
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 94,
+        "distance_m": 126.05777601111947,
+        "grade_pct": 0.07932870399925834,
+        "recommended_speed_mph": 2.7886878291135764,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.373081,
+            39.052343
+          ],
+          [
+            -79.374546,
+            39.052273
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 95,
+        "distance_m": 126.74310654875136,
+        "grade_pct": 2.4774522934644247,
+        "recommended_speed_mph": 2.5533707687271625,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.374546,
+            39.052273
+          ],
+          [
+            -79.375489,
+            39.051373
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 96,
+        "distance_m": 129.0187142491519,
+        "grade_pct": 3.2785941362206867,
+        "recommended_speed_mph": 2.4728719815750324,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.375489,
+            39.051373
+          ],
+          [
+            -79.376755,
+            39.050327
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 97,
+        "distance_m": 159.62256281429,
+        "grade_pct": 3.226360928681203,
+        "recommended_speed_mph": 2.478149167584252,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.376755,
+            39.050327
+          ],
+          [
+            -79.378022,
+            39.049273
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 98,
+        "distance_m": 160.33192726055444,
+        "grade_pct": 3.087345162361724,
+        "recommended_speed_mph": 2.492174536533059,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.378022,
+            39.049273
+          ],
+          [
+            -79.378507,
+            39.048108
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 99,
+        "distance_m": 136.14432507528494,
+        "grade_pct": 2.820536219836344,
+        "recommended_speed_mph": 2.5190133322971686,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.378507,
+            39.048108
+          ],
+          [
+            -79.379441,
+            39.047341
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 100,
+        "distance_m": 117.38533153882288,
+        "grade_pct": 2.274560172892467,
+        "recommended_speed_mph": 2.573607457261883,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.379441,
+            39.047341
+          ],
+          [
+            -79.38043,
+            39.046741
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 101,
+        "distance_m": 108.37691262477628,
+        "grade_pct": 2.31599142216769,
+        "recommended_speed_mph": 2.56947998112773,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.38043,
+            39.046741
+          ],
+          [
+            -79.380933,
+            39.045785
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 102,
+        "distance_m": 114.83493694195258,
+        "grade_pct": 1.0014373940758112,
+        "recommended_speed_mph": 2.6992071530538433,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.380933,
+            39.045785
+          ],
+          [
+            -79.381624,
+            39.044362
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 103,
+        "distance_m": 169.10913134905303,
+        "grade_pct": -1.3896351907510809,
+        "recommended_speed_mph": 2.8115553599351415,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.381624,
+            39.044362
+          ],
+          [
+            -79.382316,
+            39.042938
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 104,
+        "distance_m": 169.24407766506968,
+        "grade_pct": -2.522983408879125,
+        "recommended_speed_mph": 2.82187044553716,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.382316,
+            39.042938
+          ],
+          [
+            -79.382936,
+            39.041808
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 105,
+        "distance_m": 136.5835176657822,
+        "grade_pct": -3.7120145143765804,
+        "recommended_speed_mph": 2.8306600210427835,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.382936,
+            39.041808
+          ],
+          [
+            -79.383556,
+            39.040671
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 106,
+        "distance_m": 137.3002496770647,
+        "grade_pct": -4.282585074557301,
+        "recommended_speed_mph": 2.8341389016859466,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383556,
+            39.040671
+          ],
+          [
+            -79.383771,
+            39.039492
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 107,
+        "distance_m": 132.40730411040838,
+        "grade_pct": -4.4030803581189035,
+        "recommended_speed_mph": 2.8348123004157793,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383771,
+            39.039492
+          ],
+          [
+            -79.383987,
+            39.038306
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 108,
+        "distance_m": 133.19013422923072,
+        "grade_pct": -3.746523741324433,
+        "recommended_speed_mph": 2.83088404539181,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383987,
+            39.038306
+          ],
+          [
+            -79.383619,
+            39.037817
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 109,
+        "distance_m": 62.98219518926142,
+        "grade_pct": -7.06548888400535,
+        "recommended_speed_mph": 2.8442384143023447,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383619,
+            39.037817
+          ],
+          [
+            -79.383789,
+            39.037601
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 110,
+        "distance_m": 28.15048776725547,
+        "grade_pct": -17.05121431531116,
+        "recommended_speed_mph": 2.78663828293495,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383789,
+            39.037601
+          ],
+          [
+            -79.383646,
+            39.036903
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 111,
+        "distance_m": 78.59061126476686,
+        "grade_pct": -6.934670582519213,
+        "recommended_speed_mph": 2.84401899767954,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383646,
+            39.036903
+          ],
+          [
+            -79.383987,
+            39.035773
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 112,
+        "distance_m": 129.05590171357858,
+        "grade_pct": -4.3934449527026205,
+        "recommended_speed_mph": 2.834759238238203,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383987,
+            39.035773
+          ],
+          [
+            -79.383726,
+            39.035145
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 113,
+        "distance_m": 73.37894948316475,
+        "grade_pct": -7.727011683781239,
+        "recommended_speed_mph": 2.844962199807634,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383726,
+            39.035145
+          ],
+          [
+            -79.384068,
+            39.034566
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 114,
+        "distance_m": 70.83496338807312,
+        "grade_pct": -10.390349126995023,
+        "recommended_speed_mph": 2.8413589992985115,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.384068,
+            39.034566
+          ],
+          [
+            -79.384526,
+            39.033686
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 115,
+        "distance_m": 105.5453651561169,
+        "grade_pct": -6.4711510447641105,
+        "recommended_speed_mph": 2.8430388024541053,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.384526,
+            39.033686
+          ],
+          [
+            -79.384229,
+            39.032751
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 116,
+        "distance_m": 107.08535092808567,
+        "grade_pct": -5.248150144994214,
+        "recommended_speed_mph": 2.8389345166149735,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.384229,
+            39.032751
+          ],
+          [
+            -79.383753,
+            39.031767
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 117,
+        "distance_m": 116.88555040582997,
+        "grade_pct": -6.4421992058518756,
+        "recommended_speed_mph": 2.8429670851195215,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383753,
+            39.031767
+          ],
+          [
+            -79.383107,
+            39.030121
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 118,
+        "distance_m": 191.3436907115104,
+        "grade_pct": -4.484077822527227,
+        "recommended_speed_mph": 2.8352529506453408,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.383107,
+            39.030121
+          ],
+          [
+            -79.38246,
+            39.028467
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 119,
+        "distance_m": 192.22023478585248,
+        "grade_pct": -4.406403940478083,
+        "recommended_speed_mph": 2.8348305716852353,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.38246,
+            39.028467
+          ],
+          [
+            -79.382262,
+            39.028055
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 120,
+        "distance_m": 48.900814307539186,
+        "grade_pct": -16.74818735837979,
+        "recommended_speed_mph": 2.790545651268339,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.382262,
+            39.028055
+          ],
+          [
+            -79.381561,
+            39.027218
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 121,
+        "distance_m": 111.03478158438533,
+        "grade_pct": -7.06985674937721,
+        "recommended_speed_mph": 2.844245305784834,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.381561,
+            39.027218
+          ],
+          [
+            -79.380636,
+            39.025752
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 122,
+        "distance_m": 181.54181090953753,
+        "grade_pct": -3.828319198304812,
+        "recommended_speed_mph": 2.83140803739659,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.380636,
+            39.025752
+          ],
+          [
+            -79.380223,
+            39.024168
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 123,
+        "distance_m": 179.70969774381487,
+        "grade_pct": -3.1662175561117647,
+        "recommended_speed_mph": 2.8268837538163964,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.380223,
+            39.024168
+          ],
+          [
+            -79.379801,
+            39.022584
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 124,
+        "distance_m": 179.86582129377305,
+        "grade_pct": -2.47406648355493,
+        "recommended_speed_mph": 2.821464272958957,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.379801,
+            39.022584
+          ],
+          [
+            -79.379585,
+            39.02153
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 125,
+        "distance_m": 118.67560014997143,
+        "grade_pct": -2.7469842123235946,
+        "recommended_speed_mph": 2.8236854016281447,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.379585,
+            39.02153
+          ],
+          [
+            -79.379253,
+            39.020343
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 126,
+        "distance_m": 135.06865769163574,
+        "grade_pct": -1.4140956404265506,
+        "recommended_speed_mph": 2.8117979473926313,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.379253,
+            39.020343
+          ],
+          [
+            -79.37892,
+            39.01915
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 127,
+        "distance_m": 135.7390712623319,
+        "grade_pct": -0.3830879312523216,
+        "recommended_speed_mph": 2.800809125966754,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.37892,
+            39.01915
+          ],
+          [
+            -79.37716,
+            39.018647
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 128,
+        "distance_m": 162.0100223960486,
+        "grade_pct": 0.41355466167530996,
+        "recommended_speed_mph": 2.7563994227413464,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.37716,
+            39.018647
+          ],
+          [
+            -79.376881,
+            39.017377
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 129,
+        "distance_m": 143.25983360567162,
+        "grade_pct": 1.1098714552304008,
+        "recommended_speed_mph": 2.688602558035838,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.376881,
+            39.017377
+          ],
+          [
+            -79.376738,
+            39.017028
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 130,
+        "distance_m": 40.72608680186889,
+        "grade_pct": 4.886302997096911,
+        "recommended_speed_mph": 2.308479057635255,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.376738,
+            39.017028
+          ],
+          [
+            -79.375749,
+            39.017147
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 131,
+        "distance_m": 86.46201349753903,
+        "grade_pct": 1.5382477763347604,
+        "recommended_speed_mph": 2.6465391236368925,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.375749,
+            39.017147
+          ],
+          [
+            -79.374869,
+            39.016944
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 132,
+        "distance_m": 79.30677878234296,
+        "grade_pct": -0.32784082772238116,
+        "recommended_speed_mph": 2.8001761164826746,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.374869,
+            39.016944
+          ],
+          [
+            -79.374222,
+            39.015876
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 133,
+        "distance_m": 131.25373366105987,
+        "grade_pct": -1.1885376183115703,
+        "recommended_speed_mph": 2.8095275838141474,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.374222,
+            39.015876
+          ],
+          [
+            -79.374671,
+            39.014481
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 134,
+        "distance_m": 159.89393009470064,
+        "grade_pct": -1.1820336137090879,
+        "recommended_speed_mph": 2.809461006658532,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.374671,
+            39.014481
+          ],
+          [
+            -79.375255,
+            39.013461
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 135,
+        "distance_m": 124.13564830191079,
+        "grade_pct": -1.4580823677642039,
+        "recommended_speed_mph": 2.8122319716200996,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.375255,
+            39.013461
+          ],
+          [
+            -79.375749,
+            39.011793
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 136,
+        "distance_m": 190.32071022777245,
+        "grade_pct": -0.8459405169691243,
+        "recommended_speed_mph": 2.8059359025381703,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.375749,
+            39.011793
+          ],
+          [
+            -79.375642,
+            39.010495
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 137,
+        "distance_m": 144.62679656455265,
+        "grade_pct": -0.9956661104343314,
+        "recommended_speed_mph": 2.8075268323140072,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.375642,
+            39.010495
+          ],
+          [
+            -79.375031,
+            39.009371
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 138,
+        "distance_m": 135.6752219602111,
+        "grade_pct": -1.238251152809997,
+        "recommended_speed_mph": 2.8100344112187856,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.375031,
+            39.009371
+          ],
+          [
+            -79.37442,
+            39.00824
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 139,
+        "distance_m": 136.39290806085452,
+        "grade_pct": -1.5176742173988917,
+        "recommended_speed_mph": 2.8128154313872704,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.37442,
+            39.00824
+          ],
+          [
+            -79.375228,
+            39.007626
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 140,
+        "distance_m": 97.64969854668823,
+        "grade_pct": -2.1300628992781157,
+        "recommended_speed_mph": 2.818508424611148,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.375228,
+            39.007626
+          ],
+          [
+            -79.376154,
+            39.007459
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 141,
+        "distance_m": 82.13807688355612,
+        "grade_pct": -2.057511040093987,
+        "recommended_speed_mph": 2.8178627807768515,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.376154,
+            39.007459
+          ],
+          [
+            -79.376648,
+            39.006879
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 142,
+        "distance_m": 77.3390172287247,
+        "grade_pct": -1.797281695329856,
+        "recommended_speed_mph": 2.815483247578781,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.376648,
+            39.006879
+          ],
+          [
+            -79.377232,
+            39.006691
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 143,
+        "distance_m": 54.620059265333005,
+        "grade_pct": -3.258875995269612,
+        "recommended_speed_mph": 2.8275557416574726,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.377232,
+            39.006691
+          ],
+          [
+            -79.376639,
+            39.005392
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 144,
+        "distance_m": 153.26135134286204,
+        "grade_pct": -1.683398963531529,
+        "recommended_speed_mph": 2.8144105495121456,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.376639,
+            39.005392
+          ],
+          [
+            -79.376046,
+            39.004094
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 145,
+        "distance_m": 153.15687410400707,
+        "grade_pct": -2.0632439898544384,
+        "recommended_speed_mph": 2.8179140806081913,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.376046,
+            39.004094
+          ],
+          [
+            -79.375642,
+            39.002404
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 146,
+        "distance_m": 191.13454410709383,
+        "grade_pct": -1.8468665706090743,
+        "recommended_speed_mph": 2.815944338011963,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.375642,
+            39.002404
+          ],
+          [
+            -79.374851,
+            39.000897
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 147,
+        "distance_m": 180.97516842984928,
+        "grade_pct": -2.574938893788857,
+        "recommended_speed_mph": 2.822297991083092,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.374851,
+            39.000897
+          ],
+          [
+            -79.3738,
+            39.000101
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 148,
+        "distance_m": 126.8176466693525,
+        "grade_pct": -3.761306194583981,
+        "recommended_speed_mph": 2.8309794727178845,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.3738,
+            39.000101
+          ],
+          [
+            -79.372749,
+            38.999298
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 149,
+        "distance_m": 127.36285039469394,
+        "grade_pct": -1.4211365358036552,
+        "recommended_speed_mph": 2.811867612508124,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.372749,
+            38.999298
+          ],
+          [
+            -79.372057,
+            38.998691
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 150,
+        "distance_m": 90.17558451433901,
+        "grade_pct": -0.22178952437867822,
+        "recommended_speed_mph": 2.7989484138580174,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.372057,
+            38.998691
+          ],
+          [
+            -79.371815,
+            38.99832
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 151,
+        "distance_m": 46.25128403886029,
+        "grade_pct": -2.3134492852153534,
+        "recommended_speed_mph": 2.8201058489352286,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.371815,
+            38.99832
+          ],
+          [
+            -79.371024,
+            38.997497
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 152,
+        "distance_m": 114.22458112701294,
+        "grade_pct": -0.29765922242435694,
+        "recommended_speed_mph": 2.799828404494473,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.371024,
+            38.997497
+          ],
+          [
+            -79.369479,
+            38.996261
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 153,
+        "distance_m": 191.6131187424537,
+        "grade_pct": 0.5114472361974504,
+        "recommended_speed_mph": 2.7469112293037705,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.369479,
+            38.996261
+          ],
+          [
+            -79.368599,
+            38.994676
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 154,
+        "distance_m": 191.9518283653036,
+        "grade_pct": 0.36988446843488,
+        "recommended_speed_mph": 2.760627586594329,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.368599,
+            38.994676
+          ],
+          [
+            -79.36841,
+            38.99321
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 155,
+        "distance_m": 163.82804057229657,
+        "grade_pct": 0.18311883542766655,
+        "recommended_speed_mph": 2.7786786280522886,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.36841,
+            38.99321
+          ],
+          [
+            -79.368177,
+            38.992051
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 156,
+        "distance_m": 130.4386156978795,
+        "grade_pct": -0.09199729647379389,
+        "recommended_speed_mph": 2.7974233458479043,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.368177,
+            38.992051
+          ],
+          [
+            -79.367934,
+            38.990892
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 157,
+        "distance_m": 130.5748812234985,
+        "grade_pct": -1.133449240874113,
+        "recommended_speed_mph": 2.8089617110644602,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.367934,
+            38.990892
+          ],
+          [
+            -79.368347,
+            38.989893
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 158,
+        "distance_m": 116.67761170110403,
+        "grade_pct": -2.305497996386055,
+        "recommended_speed_mph": 2.8200376142560333,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.368347,
+            38.989893
+          ],
+          [
+            -79.3685,
+            38.989042
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 159,
+        "distance_m": 95.5463532304146,
+        "grade_pct": -3.234032378554769,
+        "recommended_speed_mph": 2.8273768079593458,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.3685,
+            38.989042
+          ],
+          [
+            -79.368536,
+            38.988288
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 160,
+        "distance_m": 83.8986889980652,
+        "grade_pct": -2.741401596934635,
+        "recommended_speed_mph": 2.8236410661522022,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.368536,
+            38.988288
+          ],
+          [
+            -79.367682,
+            38.987387
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 161,
+        "distance_m": 124.4403427545664,
+        "grade_pct": -1.4625482056004306,
+        "recommended_speed_mph": 2.8122758775209573,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.367682,
+            38.987387
+          ],
+          [
+            -79.366389,
+            38.987827
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 162,
+        "distance_m": 121.99439997918286,
+        "grade_pct": -2.9099696384471145,
+        "recommended_speed_mph": 2.824959563312091,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.366389,
+            38.987827
+          ],
+          [
+            -79.36532,
+            38.988525
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 163,
+        "distance_m": 120.66631677543543,
+        "grade_pct": -3.9613374533472605,
+        "recommended_speed_mph": 2.832239139282993,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.36532,
+            38.988525
+          ],
+          [
+            -79.364233,
+            38.989509
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 164,
+        "distance_m": 144.21484901321583,
+        "grade_pct": -3.3214332870542402,
+        "recommended_speed_mph": 2.8280022803961034,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.364233,
+            38.989509
+          ],
+          [
+            -79.363146,
+            38.990634
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 165,
+        "distance_m": 156.44303341707067,
+        "grade_pct": -3.228012069119812,
+        "recommended_speed_mph": 2.8273333105231044,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.363146,
+            38.990634
+          ],
+          [
+            -79.362059,
+            38.991758
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 166,
+        "distance_m": 156.3532376624422,
+        "grade_pct": -3.332198346444161,
+        "recommended_speed_mph": 2.828078541295967,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.362059,
+            38.991758
+          ],
+          [
+            -79.360963,
+            38.992784
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 167,
+        "distance_m": 148.28233996307952,
+        "grade_pct": -3.5203113204847885,
+        "recommended_speed_mph": 2.8293836210019316,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.360963,
+            38.992784
+          ],
+          [
+            -79.359858,
+            38.993803
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 168,
+        "distance_m": 148.18350006592846,
+        "grade_pct": -3.380943220919325,
+        "recommended_speed_mph": 2.8284217205916553,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.359858,
+            38.993803
+          ],
+          [
+            -79.358753,
+            38.994823
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 169,
+        "distance_m": 148.26765585664194,
+        "grade_pct": -3.048540812144701,
+        "recommended_speed_mph": 2.8260121089465122,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.358753,
+            38.994823
+          ],
+          [
+            -79.358565,
+            38.995877
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 170,
+        "distance_m": 118.32023352334936,
+        "grade_pct": -3.1355583821324218,
+        "recommended_speed_mph": 2.826658621362889,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.358565,
+            38.995877
+          ],
+          [
+            -79.358367,
+            38.996924
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 171,
+        "distance_m": 117.67181212141647,
+        "grade_pct": -3.4162812040763457,
+        "recommended_speed_mph": 2.8286683243303212,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.358367,
+            38.996924
+          ],
+          [
+            -79.358987,
+            38.998118
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 172,
+        "distance_m": 143.1702322206616,
+        "grade_pct": -2.360825953533883,
+        "recommended_speed_mph": 2.820510486776099,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.358987,
+            38.998118
+          ],
+          [
+            -79.359607,
+            38.999312
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 173,
+        "distance_m": 143.16989388303884,
+        "grade_pct": -0.46099077264039506,
+        "recommended_speed_mph": 2.801694085967509,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.359607,
+            38.999312
+          ],
+          [
+            -79.359867,
+            39.000094
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 174,
+        "distance_m": 89.81024707754585,
+        "grade_pct": 1.6033805126451461,
+        "recommended_speed_mph": 2.64011990652543,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.359867,
+            39.000094
+          ],
+          [
+            -79.3609,
+            39.000792
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 175,
+        "distance_m": 118.28916969862404,
+        "grade_pct": 2.24872657976821,
+        "recommended_speed_mph": 2.576179780198999,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.3609,
+            39.000792
+          ],
+          [
+            -79.361439,
+            39.002014
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 176,
+        "distance_m": 143.64124719237813,
+        "grade_pct": 1.9423390248507995,
+        "recommended_speed_mph": 2.6066127301947186,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.361439,
+            39.002014
+          ],
+          [
+            -79.361718,
+            39.003096
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 177,
+        "distance_m": 122.7046536217843,
+        "grade_pct": 3.5858460703229103,
+        "recommended_speed_mph": 2.4417486458875772,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.361718,
+            39.003096
+          ],
+          [
+            -79.362275,
+            39.004066
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 178,
+        "distance_m": 118.11066955832612,
+        "grade_pct": 5.49484650647508,
+        "recommended_speed_mph": 2.245261110119608,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.362275,
+            39.004066
+          ],
+          [
+            -79.361808,
+            39.005253
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 179,
+        "distance_m": 138.01918942379237,
+        "grade_pct": 4.7167354243842325,
+        "recommended_speed_mph": 2.3259973130113543,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.361808,
+            39.005253
+          ],
+          [
+            -79.361331,
+            39.006432
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 180,
+        "distance_m": 137.42522344035396,
+        "grade_pct": 4.3878407828219,
+        "recommended_speed_mph": 2.359855206793276,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.361331,
+            39.006432
+          ],
+          [
+            -79.361161,
+            39.007535
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 181,
+        "distance_m": 123.52449557221425,
+        "grade_pct": 4.371602551368399,
+        "recommended_speed_mph": 2.361522718727228,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.361161,
+            39.007535
+          ],
+          [
+            -79.360352,
+            39.008254
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 182,
+        "distance_m": 106.19845606662423,
+        "grade_pct": 4.548088718888743,
+        "recommended_speed_mph": 2.343378453352194,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.360352,
+            39.008254
+          ],
+          [
+            -79.359544,
+            39.008966
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 183,
+        "distance_m": 105.55608889468982,
+        "grade_pct": 3.713665446538771,
+        "recommended_speed_mph": 2.4287601498522955,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.359544,
+            39.008966
+          ],
+          [
+            -79.358367,
+            39.009727
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 184,
+        "distance_m": 132.2975486423536,
+        "grade_pct": 1.647800750937089,
+        "recommended_speed_mph": 2.6357384473074066,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.358367,
+            39.009727
+          ],
+          [
+            -79.35719,
+            39.010488
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 185,
+        "distance_m": 132.2967075572125,
+        "grade_pct": 0.20408671159349803,
+        "recommended_speed_mph": 2.776654625321864,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.35719,
+            39.010488
+          ],
+          [
+            -79.356606,
+            39.011032
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 186,
+        "distance_m": 78.77249145001635,
+        "grade_pct": 0.15233744393658294,
+        "recommended_speed_mph": 2.7816487447387708,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.356606,
+            39.011032
+          ],
+          [
+            -79.355232,
+            39.012066
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 187,
+        "distance_m": 165.2648979449797,
+        "grade_pct": 0.5445802533938533,
+        "recommended_speed_mph": 2.7436966315595432,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.355232,
+            39.012066
+          ],
+          [
+            -79.355232,
+            39.012868
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 188,
+        "distance_m": 89.1783311685933,
+        "grade_pct": 0.8634384495761448,
+        "recommended_speed_mph": 2.712678095199812,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.355232,
+            39.012868
+          ],
+          [
+            -79.354765,
+            39.013901
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 189,
+        "distance_m": 121.74474970781657,
+        "grade_pct": 0.36962579583927097,
+        "recommended_speed_mph": 2.7606526230052784,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.354765,
+            39.013901
+          ],
+          [
+            -79.354675,
+            39.014753
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 190,
+        "distance_m": 95.05664399749298,
+        "grade_pct": 0.2524810364716209,
+        "recommended_speed_mph": 2.7719807115014343,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.354675,
+            39.014753
+          ],
+          [
+            -79.354765,
+            39.015534
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 191,
+        "distance_m": 87.19064616747596,
+        "grade_pct": 0.6422707304225,
+        "recommended_speed_mph": 2.7342092000049956,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.354765,
+            39.015534
+          ],
+          [
+            -79.35436,
+            39.016798
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 192,
+        "distance_m": 144.84028456487695,
+        "grade_pct": 1.042527639693797,
+        "recommended_speed_mph": 2.6951906606704092,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.35436,
+            39.016798
+          ],
+          [
+            -79.353902,
+            39.017901
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 193,
+        "distance_m": 128.8727162204783,
+        "grade_pct": 1.4820825198814087,
+        "recommended_speed_mph": 2.65206952847929,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.353902,
+            39.017901
+          ],
+          [
+            -79.353372,
+            39.019017
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 194,
+        "distance_m": 132.27143275787512,
+        "grade_pct": 0.8316232591306967,
+        "recommended_speed_mph": 2.715779799179996,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.353372,
+            39.019017
+          ],
+          [
+            -79.352833,
+            39.020134
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 195,
+        "distance_m": 132.6464483739276,
+        "grade_pct": 0.8820439705267245,
+        "recommended_speed_mph": 2.7108635285287956,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.352833,
+            39.020134
+          ],
+          [
+            -79.353184,
+            39.021097
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 196,
+        "distance_m": 111.29126871075451,
+        "grade_pct": 3.2706968319863825,
+        "recommended_speed_mph": 2.473670113746647,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.353184,
+            39.021097
+          ],
+          [
+            -79.353848,
+            39.022102
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 197,
+        "distance_m": 125.613071596393,
+        "grade_pct": 6.161779105975039,
+        "recommended_speed_mph": 2.1753514082317515,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.353848,
+            39.022102
+          ],
+          [
+            -79.353786,
+            39.023114
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 198,
+        "distance_m": 112.65665702201377,
+        "grade_pct": 10.314525840873543,
+        "recommended_speed_mph": 1.7253186762343864,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.353786,
+            39.023114
+          ],
+          [
+            -79.35339,
+            39.023805
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 199,
+        "distance_m": 84.10689945951727,
+        "grade_pct": 15.004714335087858,
+        "recommended_speed_mph": 1.1865189056731575,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.35339,
+            39.023805
+          ],
+          [
+            -79.351531,
+            39.024831
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 200,
+        "distance_m": 196.98898147716554,
+        "grade_pct": 5.507922280037583,
+        "recommended_speed_mph": 2.243896764060565,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.351531,
+            39.024831
+          ],
+          [
+            -79.350641,
+            39.026366
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 201,
+        "distance_m": 187.19996089839762,
+        "grade_pct": 4.690171919835656,
+        "recommended_speed_mph": 2.3287377902386925,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.350641,
+            39.026366
+          ],
+          [
+            -79.350183,
+            39.027518
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 202,
+        "distance_m": 134.0669489745286,
+        "grade_pct": 5.4301228272026245,
+        "recommended_speed_mph": 2.2520107710773067,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.350183,
+            39.027518
+          ],
+          [
+            -79.349725,
+            39.028669
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 203,
+        "distance_m": 133.96051956258552,
+        "grade_pct": 4.628229287438263,
+        "recommended_speed_mph": 2.335124191322791,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.349725,
+            39.028669
+          ],
+          [
+            -79.349366,
+            39.029402
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 204,
+        "distance_m": 87.20571854383024,
+        "grade_pct": 8.049930804103951,
+        "recommended_speed_mph": 1.9738795538887421,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.349366,
+            39.029402
+          ],
+          [
+            -79.349258,
+            39.0301
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 205,
+        "distance_m": 78.17269194991826,
+        "grade_pct": 11.500179635312417,
+        "recommended_speed_mph": 1.5921711564287457,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.349258,
+            39.0301
+          ],
+          [
+            -79.348971,
+            39.031258
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 206,
+        "distance_m": 131.12838668644898,
+        "grade_pct": 4.140979796376317,
+        "recommended_speed_mph": 2.385163582014851,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.348971,
+            39.031258
+          ],
+          [
+            -79.348306,
+            39.031223
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 207,
+        "distance_m": 57.57207850849035,
+        "grade_pct": 1.2679757599725405,
+        "recommended_speed_mph": 2.673109315970899,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.348306,
+            39.031223
+          ],
+          [
+            -79.347488,
+            39.031272
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 208,
+        "distance_m": 70.86575444354165,
+        "grade_pct": -0.8325601055587368,
+        "recommended_speed_mph": 2.8057921209386905,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.347488,
+            39.031272
+          ],
+          [
+            -79.347102,
+            39.031509
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 209,
+        "distance_m": 42.498600531906305,
+        "grade_pct": -5.882546645560945,
+        "recommended_speed_mph": 2.8413383155760323,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.347102,
+            39.031509
+          ],
+          [
+            -79.34624,
+            39.031907
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 210,
+        "distance_m": 86.6156018798715,
+        "grade_pct": -5.276185699590403,
+        "recommended_speed_mph": 2.839053257757823,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.34624,
+            39.031907
+          ],
+          [
+            -79.345557,
+            39.032005
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 211,
+        "distance_m": 59.992546853822894,
+        "grade_pct": -9.551186439811708,
+        "recommended_speed_mph": 2.84362090672636,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.345557,
+            39.032005
+          ],
+          [
+            -79.344892,
+            39.031921
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 212,
+        "distance_m": 58.194270053737434,
+        "grade_pct": -9.811962577634086,
+        "recommended_speed_mph": 2.8430290083935366,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.344892,
+            39.031921
+          ],
+          [
+            -79.344308,
+            39.03206
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 213,
+        "distance_m": 52.75815274698006,
+        "grade_pct": -7.619675425861249,
+        "recommended_speed_mph": 2.8448885399157122,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.344308,
+            39.03206
+          ],
+          [
+            -79.343599,
+            39.032416
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 214,
+        "distance_m": 72.92017451575151,
+        "grade_pct": -1.9610485157176105,
+        "recommended_speed_mph": 2.8169923553520797,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.343599,
+            39.032416
+          ],
+          [
+            -79.343347,
+            39.033184
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 215,
+        "distance_m": 88.12799828514963,
+        "grade_pct": -0.03404139499813802,
+        "recommended_speed_mph": 2.7967343516268115,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.343347,
+            39.033184
+          ],
+          [
+            -79.3435,
+            39.033498
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 216,
+        "distance_m": 37.332473536562,
+        "grade_pct": 2.3036244816670832,
+        "recommended_speed_mph": 2.570712268657371,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.3435,
+            39.033498
+          ],
+          [
+            -79.343437,
+            39.033896
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 217,
+        "distance_m": 44.588862946063166,
+        "grade_pct": 5.001248860500286,
+        "recommended_speed_mph": 2.2965797759368622,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.343437,
+            39.033896
+          ],
+          [
+            -79.343985,
+            39.034705
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 218,
+        "distance_m": 101.64916215805042,
+        "grade_pct": 3.3153249160676856,
+        "recommended_speed_mph": 2.469158620189088,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.343985,
+            39.034705
+          ],
+          [
+            -79.344533,
+            39.035515
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 219,
+        "distance_m": 101.74732753852241,
+        "grade_pct": 3.371095912766295,
+        "recommended_speed_mph": 2.463516558494419,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.344533,
+            39.035515
+          ],
+          [
+            -79.344704,
+            39.035884
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 220,
+        "distance_m": 43.60818489891764,
+        "grade_pct": 5.618211364859753,
+        "recommended_speed_mph": 2.2323790200526927,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.344704,
+            39.035884
+          ],
+          [
+            -79.345153,
+            39.035884
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 221,
+        "distance_m": 38.78050936604621,
+        "grade_pct": 3.120124051437645,
+        "recommended_speed_mph": 2.4888700212138652,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.345153,
+            39.035884
+          ],
+          [
+            -79.345216,
+            39.03645
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 222,
+        "distance_m": 63.171113962516834,
+        "grade_pct": 0.8389910621402895,
+        "recommended_speed_mph": 2.715061635121189,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.345216,
+            39.03645
+          ],
+          [
+            -79.345665,
+            39.036784
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 223,
+        "distance_m": 53.69552926601304,
+        "grade_pct": 1.191905562247554,
+        "recommended_speed_mph": 2.6805683166613794,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.345665,
+            39.036784
+          ],
+          [
+            -79.345198,
+            39.037845
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 224,
+        "distance_m": 124.68210211679293,
+        "grade_pct": 1.2030596008037397,
+        "recommended_speed_mph": 2.6794751494838094,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.345198,
+            39.037845
+          ],
+          [
+            -79.344335,
+            39.038934
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 225,
+        "distance_m": 142.1922016101107,
+        "grade_pct": 1.9480674528096054,
+        "recommended_speed_mph": 2.6060450028473716,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.344335,
+            39.038934
+          ],
+          [
+            -79.34438,
+            39.039247
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 226,
+        "distance_m": 35.0203401881252,
+        "grade_pct": 9.65153388528821,
+        "recommended_speed_mph": 1.7988698525506308,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.34438,
+            39.039247
+          ],
+          [
+            -79.342898,
+            39.040462
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 227,
+        "distance_m": 186.10500366798664,
+        "grade_pct": 1.2627280049881597,
+        "recommended_speed_mph": 2.673624153802113,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.342898,
+            39.040462
+          ],
+          [
+            -79.342727,
+            39.041417
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 228,
+        "distance_m": 107.2131791346103,
+        "grade_pct": 0.42905173012590975,
+        "recommended_speed_mph": 2.7548983161588567,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.342727,
+            39.041417
+          ],
+          [
+            -79.343069,
+            39.042478
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 229,
+        "distance_m": 121.61890484439425,
+        "grade_pct": -0.8469078070698055,
+        "recommended_speed_mph": 2.8059462865124987,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.343069,
+            39.042478
+          ],
+          [
+            -79.343158,
+            39.04305
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 230,
+        "distance_m": 64.06624310267247,
+        "grade_pct": -2.856418468408038,
+        "recommended_speed_mph": 2.824545232495673,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.343158,
+            39.04305
+          ],
+          [
+            -79.34288,
+            39.043483
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 231,
+        "distance_m": 53.801344296259295,
+        "grade_pct": -4.702484729876683,
+        "recommended_speed_mph": 2.836393022223473,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.34288,
+            39.043483
+          ],
+          [
+            -79.342817,
+            39.044201
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 232,
+        "distance_m": 80.02312912850468,
+        "grade_pct": -4.948569298809715,
+        "recommended_speed_mph": 2.837593444747103,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.342817,
+            39.044201
+          ],
+          [
+            -79.342,
+            39.045464
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 233,
+        "distance_m": 157.16654229136793,
+        "grade_pct": -3.8621451560263447,
+        "recommended_speed_mph": 2.8316218523476535,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.342,
+            39.045464
+          ],
+          [
+            -79.34067,
+            39.046162
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 234,
+        "distance_m": 138.622116596968,
+        "grade_pct": -5.453675203921464,
+        "recommended_speed_mph": 2.8397781454760938,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.34067,
+            39.046162
+          ],
+          [
+            -79.340086,
+            39.047013
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 235,
+        "distance_m": 107.22745713812239,
+        "grade_pct": -6.518852714184963,
+        "recommended_speed_mph": 2.8431542743816256,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.340086,
+            39.047013
+          ],
+          [
+            -79.339682,
+            39.047815
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 236,
+        "distance_m": 95.75988807492845,
+        "grade_pct": -5.022979972821505,
+        "recommended_speed_mph": 2.8379388749703054,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.339682,
+            39.047815
+          ],
+          [
+            -79.339098,
+            39.047683
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 237,
+        "distance_m": 52.52459213808059,
+        "grade_pct": -5.749687674034249,
+        "recommended_speed_mph": 2.8408839388341582,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.339098,
+            39.047683
+          ],
+          [
+            -79.338514,
+            39.04792
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 238,
+        "distance_m": 56.90240992968127,
+        "grade_pct": -3.936564378851706,
+        "recommended_speed_mph": 2.8320863299622845,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.338514,
+            39.04792
+          ],
+          [
+            -79.337858,
+            39.047076
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 239,
+        "distance_m": 109.62099438235352,
+        "grade_pct": -1.6511435698956898,
+        "recommended_speed_mph": 2.8141032563982566,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.337858,
+            39.047076
+          ],
+          [
+            -79.336628,
+            39.046755
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 240,
+        "distance_m": 112.05634465017542,
+        "grade_pct": -1.1690547323220173,
+        "recommended_speed_mph": 2.80932796440658,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.336628,
+            39.046755
+          ],
+          [
+            -79.33528,
+            39.046992
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 241,
+        "distance_m": 119.35547860006542,
+        "grade_pct": -0.29324167110326893,
+        "recommended_speed_mph": 2.79977739890246,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.33528,
+            39.046992
+          ],
+          [
+            -79.333969,
+            39.047683
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 242,
+        "distance_m": 136.82504694353534,
+        "grade_pct": 0.22656670465304174,
+        "recommended_speed_mph": 2.774483941017173,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.333969,
+            39.047683
+          ],
+          [
+            -79.333627,
+            39.048457
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 243,
+        "distance_m": 90.99122960650183,
+        "grade_pct": 0.30772196530462664,
+        "recommended_speed_mph": 2.766641340715462,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.333627,
+            39.048457
+          ],
+          [
+            -79.332846,
+            39.049796
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 244,
+        "distance_m": 163.45271666833406,
+        "grade_pct": 0.2386011122662823,
+        "recommended_speed_mph": 2.773321584264732,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.332846,
+            39.049796
+          ],
+          [
+            -79.331894,
+            39.050529
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 245,
+        "distance_m": 115.76456358258206,
+        "grade_pct": 0.6305902060255805,
+        "recommended_speed_mph": 2.7353443199309866,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.331894,
+            39.050529
+          ],
+          [
+            -79.330501,
+            39.051213
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 246,
+        "distance_m": 142.31716936757167,
+        "grade_pct": 0.8642667679984686,
+        "recommended_speed_mph": 2.7125973214675616,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.330501,
+            39.051213
+          ],
+          [
+            -79.3291,
+            39.051896
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 247,
+        "distance_m": 142.8413975545896,
+        "grade_pct": 1.1971319444326542,
+        "recommended_speed_mph": 2.6800561205528095,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.3291,
+            39.051896
+          ],
+          [
+            -79.327528,
+            39.052692
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 248,
+        "distance_m": 162.05093364147427,
+        "grade_pct": 1.2526925667032551,
+        "recommended_speed_mph": 2.6746085806544584,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.327528,
+            39.052692
+          ],
+          [
+            -79.325956,
+            39.05348
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 249,
+        "distance_m": 161.565501421814,
+        "grade_pct": 1.2997824297386635,
+        "recommended_speed_mph": 2.669988013843865,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.325956,
+            39.05348
+          ],
+          [
+            -79.324635,
+            39.054136
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 250,
+        "distance_m": 135.39599415203563,
+        "grade_pct": 1.4845343191933507,
+        "recommended_speed_mph": 2.6518282049299104,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.324635,
+            39.054136
+          ],
+          [
+            -79.32389,
+            39.054568
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 251,
+        "distance_m": 80.28546961878865,
+        "grade_pct": 2.4039219165860106,
+        "recommended_speed_mph": 2.5607117718965187,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.32389,
+            39.054568
+          ],
+          [
+            -79.322722,
+            39.055656
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 252,
+        "distance_m": 157.504434126,
+        "grade_pct": 1.2063152447378933,
+        "recommended_speed_mph": 2.679156041011703,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.322722,
+            39.055656
+          ],
+          [
+            -79.321931,
+            39.055789
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 253,
+        "distance_m": 69.88292594281312,
+        "grade_pct": 2.5184978680489727,
+        "recommended_speed_mph": 2.5492694679240633,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.321931,
+            39.055789
+          ],
+          [
+            -79.321356,
+            39.0562
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 254,
+        "distance_m": 67.48055217398439,
+        "grade_pct": 1.9413000602342232,
+        "recommended_speed_mph": 2.606715693693109,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.321356,
+            39.0562
+          ],
+          [
+            -79.321096,
+            39.056738
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 255,
+        "distance_m": 63.89657888223304,
+        "grade_pct": 1.2833237934557775,
+        "recommended_speed_mph": 2.671603344530057,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.321096,
+            39.056738
+          ],
+          [
+            -79.321527,
+            39.056954
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 256,
+        "distance_m": 44.29232254522357,
+        "grade_pct": 1.1965956390271235,
+        "recommended_speed_mph": 2.6801086814270607,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.321527,
+            39.056954
+          ],
+          [
+            -79.321015,
+            39.057902
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 257,
+        "distance_m": 114.30764577464353,
+        "grade_pct": 0.516150950360158,
+        "recommended_speed_mph": 2.74645496877064,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.321015,
+            39.057902
+          ],
+          [
+            -79.320494,
+            39.058851
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 258,
+        "distance_m": 114.71247195719714,
+        "grade_pct": 0.8107226565101384,
+        "recommended_speed_mph": 2.7178166150159937,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.320494,
+            39.058851
+          ],
+          [
+            -79.320584,
+            39.059988
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 259,
+        "distance_m": 126.66721757273575,
+        "grade_pct": 1.136837160864584,
+        "recommended_speed_mph": 2.6859626885778365,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.320584,
+            39.059988
+          ],
+          [
+            -79.320925,
+            39.06132
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 260,
+        "distance_m": 151.00959465623512,
+        "grade_pct": 2.5892394512421397,
+        "recommended_speed_mph": 2.5421951023334755,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.320925,
+            39.06132
+          ],
+          [
+            -79.321374,
+            39.063001
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 261,
+        "distance_m": 190.89630469706515,
+        "grade_pct": 3.3106979257818505,
+        "recommended_speed_mph": 2.4696265030574347,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.321374,
+            39.063001
+          ],
+          [
+            -79.321716,
+            39.06462
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 262,
+        "distance_m": 182.42999844868206,
+        "grade_pct": 3.8151620123802714,
+        "recommended_speed_mph": 2.4184293433650668,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.321716,
+            39.06462
+          ],
+          [
+            -79.320701,
+            39.064703
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 263,
+        "distance_m": 88.11535858919783,
+        "grade_pct": 8.386733162436249,
+        "recommended_speed_mph": 1.9373901434390233,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.320701,
+            39.064703
+          ],
+          [
+            -79.319739,
+            39.064501
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 264,
+        "distance_m": 86.03860891220909,
+        "grade_pct": 8.14750504294271,
+        "recommended_speed_mph": 1.9633254699349165,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.319739,
+            39.064501
+          ],
+          [
+            -79.318652,
+            39.064564
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 265,
+        "distance_m": 94.10812777699937,
+        "grade_pct": 6.471279520543794,
+        "recommended_speed_mph": 2.1426863110576444,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.318652,
+            39.064564
+          ],
+          [
+            -79.317898,
+            39.064829
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 266,
+        "distance_m": 71.45565338068506,
+        "grade_pct": 6.101686561833939,
+        "recommended_speed_mph": 2.1816773117381962,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.317898,
+            39.064829
+          ],
+          [
+            -79.316407,
+            39.065017
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 267,
+        "distance_m": 130.4123662613654,
+        "grade_pct": 1.9630040259138917,
+        "recommended_speed_mph": 2.6045644566298094,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.316407,
+            39.065017
+          ],
+          [
+            -79.315419,
+            39.065205
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 268,
+        "distance_m": 87.82333853624486,
+        "grade_pct": 1.8787716653687736,
+        "recommended_speed_mph": 2.6129094589812745,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.315419,
+            39.065205
+          ],
+          [
+            -79.314421,
+            39.065701
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 269,
+        "distance_m": 102.30206563016108,
+        "grade_pct": -1.290296527121901,
+        "recommended_speed_mph": 2.8105611138571476,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.314421,
+            39.065701
+          ],
+          [
+            -79.313254,
+            39.065917
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 270,
+        "distance_m": 103.57533687922253,
+        "grade_pct": -4.856368467201194,
+        "recommended_speed_mph": 2.837154122996571,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.313254,
+            39.065917
+          ],
+          [
+            -79.311187,
+            39.065631
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 271,
+        "distance_m": 181.26451181638092,
+        "grade_pct": -2.9239038281077323,
+        "recommended_speed_mph": 2.8250666814705827,
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.311187,
+            39.065631
+          ],
+          [
+            -79.30993,
+            39.065394
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 272,
+        "distance_m": 111.67653852979842,
+        "grade_pct": -0.34026842611952424,
+        "recommended_speed_mph": 2.800318900888085,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.30993,
+            39.065394
+          ],
+          [
+            -79.308825,
+            39.065129
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 273,
+        "distance_m": 99.84719124679262,
+        "grade_pct": 3.865907444966705,
+        "recommended_speed_mph": 2.413258544414444,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.308825,
+            39.065129
+          ],
+          [
+            -79.30745,
+            39.064529
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 274,
+        "distance_m": 136.1745690773188,
+        "grade_pct": 2.9080319672255257,
+        "recommended_speed_mph": 2.510223523064903,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.30745,
+            39.064529
+          ],
+          [
+            -79.305582,
+            39.064271
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 275,
+        "distance_m": 163.80732731344455,
+        "grade_pct": 2.2709606835119316,
+        "recommended_speed_mph": 2.5739659273622593,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.305582,
+            39.064271
+          ],
+          [
+            -79.304082,
+            39.063845
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 276,
+        "distance_m": 137.89585376591486,
+        "grade_pct": 2.465628883789183,
+        "recommended_speed_mph": 2.5545517115457277,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.304082,
+            39.063845
+          ],
+          [
+            -79.303758,
+            39.063824
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 277,
+        "distance_m": 28.07037497723798,
+        "grade_pct": 11.613667443500475,
+        "recommended_speed_mph": 1.5793181001503256,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.303758,
+            39.063824
+          ],
+          [
+            -79.303219,
+            39.06365
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 278,
+        "distance_m": 50.397395437042604,
+        "grade_pct": 3.472401668427753,
+        "recommended_speed_mph": 2.4532562706565506,
+        "zone": "slowdown",
+        "zone_color": "#d73027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.303219,
+            39.06365
+          ],
+          [
+            -79.303103,
+            39.06372
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 279,
+        "distance_m": 12.684118275058026,
+        "grade_pct": 1.3402587102497487,
+        "recommended_speed_mph": 2.6660137785728297,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.303103,
+            39.06372
+          ],
+          [
+            -79.302303,
+            39.064906
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 280,
+        "distance_m": 148.86940602444136,
+        "grade_pct": -0.13434593805458062,
+        "recommended_speed_mph": 2.797923670827962,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.302303,
+            39.064906
+          ],
+          [
+            -79.301495,
+            39.066091
+          ]
+        ]
+      },
+      "properties": {
+        "segment_index": 281,
+        "distance_m": 149.0922802868008,
+        "grade_pct": -0.2213394277459245,
+        "recommended_speed_mph": 2.798943168035998,
+        "zone": "steady",
+        "zone_color": "#fdae61"
+      }
+    }
+  ]
+}
