@@ -37,15 +37,41 @@
     crossorigin=""></script>
   <script>
     const map = L.map('map');
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    const streetLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
+    const topoLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      maxZoom: 17,
+      subdomains: 'abc',
+      attribution: 'Map data: &copy; OpenStreetMap contributors, SRTM | Map style: &copy; OpenTopoMap'
+    });
+
+    const speedLayerGroup = L.layerGroup().addTo(map);
+    const elevationLayerGroup = L.layerGroup();
+
+    function elevationGainColor(gainMeters, maxGainMeters) {
+      if (gainMeters <= 0) return '#6baed6';
+      const ratio = Math.max(0, Math.min(1, gainMeters / Math.max(maxGainMeters, 1)));
+      if (ratio < 0.2) return '#c7e9c0';
+      if (ratio < 0.4) return '#a1d99b';
+      if (ratio < 0.6) return '#74c476';
+      if (ratio < 0.8) return '#31a354';
+      return '#006d2c';
+    }
 
     fetch('Dollysods_pace_map.geojson')
       .then(r => r.json())
       .then(data => {
-        const layer = L.geoJSON(data, {
+        let maxElevationGain = 0;
+        data.features.forEach(feature => {
+          const gain = Number(feature.properties.elev_delta_m || 0);
+          if (gain > maxElevationGain) {
+            maxElevationGain = gain;
+          }
+        });
+
+        const speedLayer = L.geoJSON(data, {
           style: feature => ({
             color: feature.properties.zone_color || '#3388ff',
             weight: 5,
@@ -57,17 +83,55 @@
               `Seg ${p.segment_index}<br>Speed: ${Number(p.recommended_speed_mph).toFixed(2)} mph<br>Grade: ${Number(p.grade_pct).toFixed(1)}%<br>Zone: ${p.zone}`
             );
           }
-        }).addTo(map);
-        map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+        });
+        speedLayer.addTo(speedLayerGroup);
+
+        const elevationLayer = L.geoJSON(data, {
+          style: feature => {
+            const gain = Number(feature.properties.elev_delta_m || 0);
+            return {
+              color: elevationGainColor(gain, maxElevationGain),
+              weight: 5,
+              opacity: 0.95
+            };
+          },
+          onEachFeature: (feature, line) => {
+            const p = feature.properties;
+            const gain = Math.max(0, Number(p.elev_delta_m || 0));
+            line.bindPopup(
+              `Seg ${p.segment_index}<br>Elevation gain: ${gain.toFixed(1)} m<br>Grade: ${Number(p.grade_pct).toFixed(1)}%<br>Speed: ${Number(p.recommended_speed_mph).toFixed(2)} mph`
+            );
+          }
+        });
+        elevationLayer.addTo(elevationLayerGroup);
+
+        const baseMaps = {
+          'OpenStreetMap': streetLayer,
+          'Topographic': topoLayer
+        };
+        const overlays = {
+          'Speed zones': speedLayerGroup,
+          'Elevation gain': elevationLayerGroup
+        };
+        L.control.layers(baseMaps, overlays, { collapsed: false }).addTo(map);
+
+        map.fitBounds(speedLayer.getBounds(), { padding: [20, 20] });
       });
 
     const legend = L.control({position: 'bottomright'});
     legend.onAdd = function() {
       const div = L.DomUtil.create('div', 'legend');
       div.innerHTML =
+        '<div><strong>Speed zones</strong></div>' +
         '<div><span class="swatch" style="background:#d73027"></span>Slowdown zone</div>' +
         '<div><span class="swatch" style="background:#fdae61"></span>Steady zone</div>' +
-        '<div><span class="swatch" style="background:#1a9850"></span>Speed-up zone</div>';
+        '<div><span class="swatch" style="background:#1a9850"></span>Speed-up zone</div>' +
+        '<hr style="margin:6px 0;border:0;border-top:1px solid #ddd;">' +
+        '<div><strong>Elevation gain</strong></div>' +
+        '<div><span class="swatch" style="background:#6baed6"></span>Flat / downhill</div>' +
+        '<div><span class="swatch" style="background:#c7e9c0"></span>Low uphill gain</div>' +
+        '<div><span class="swatch" style="background:#31a354"></span>High uphill gain</div>' +
+        '<div><span class="swatch" style="background:#006d2c"></span>Very high uphill gain</div>';
       return div;
     };
     legend.addTo(map);

@@ -2,10 +2,80 @@
 
 from __future__ import annotations
 
+import json
 import random
 import statistics
+from pathlib import Path
 
 from .types import Segment
+
+# Bump when training data, hyperparameters, or architecture changes (invalidates on-disk cache).
+PACE_MODEL_SPEC_VERSION = 1
+PACE_MODEL_LEARNING_RATE = 0.006
+PACE_MODEL_EPOCHS = 3200
+
+
+def default_pace_model_path() -> Path:
+    return Path(__file__).resolve().parent / "pace_model.json"
+
+
+def load_or_train_pace_model(cache_path: Path | None = None) -> tuple[LinearRegressionGD, float]:
+    """Load fitted weights from disk if valid; otherwise train once and persist."""
+    path = cache_path or default_pace_model_path()
+    train_x, train_y = build_training_data()
+    baseline = statistics.mean(train_y)
+
+    loaded = _try_load_pace_model(path)
+    if loaded is not None:
+        return loaded
+
+    model = LinearRegressionGD(learning_rate=PACE_MODEL_LEARNING_RATE, epochs=PACE_MODEL_EPOCHS)
+    model.fit(train_x, train_y)
+    _save_pace_model(path, model, baseline)
+    return model, baseline
+
+
+def _try_load_pace_model(path: Path) -> tuple[LinearRegressionGD, float] | None:
+    if not path.is_file():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+    if data.get("spec_version") != PACE_MODEL_SPEC_VERSION:
+        return None
+    if data.get("learning_rate") != PACE_MODEL_LEARNING_RATE or data.get("epochs") != PACE_MODEL_EPOCHS:
+        return None
+
+    weights = data.get("weights")
+    means = data.get("feature_means")
+    stds = data.get("feature_stds")
+    baseline = data.get("baseline_mph")
+    if not isinstance(weights, list) or not isinstance(means, list) or not isinstance(stds, list):
+        return None
+    if baseline is None or len(weights) != len(means) + 1 or len(means) != len(stds):
+        return None
+
+    model = LinearRegressionGD(learning_rate=PACE_MODEL_LEARNING_RATE, epochs=PACE_MODEL_EPOCHS)
+    model.weights = [float(w) for w in weights]
+    model.feature_means = [float(m) for m in means]
+    model.feature_stds = [float(s) for s in stds]
+    return model, float(baseline)
+
+
+def _save_pace_model(path: Path, model: LinearRegressionGD, baseline_mph: float) -> None:
+    payload = {
+        "spec_version": PACE_MODEL_SPEC_VERSION,
+        "learning_rate": PACE_MODEL_LEARNING_RATE,
+        "epochs": PACE_MODEL_EPOCHS,
+        "weights": model.weights,
+        "feature_means": model.feature_means,
+        "feature_stds": model.feature_stds,
+        "baseline_mph": baseline_mph,
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
 
 class LinearRegressionGD:

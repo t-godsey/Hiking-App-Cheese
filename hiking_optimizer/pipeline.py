@@ -2,17 +2,18 @@
 
 from __future__ import annotations
 
-import statistics
 from pathlib import Path
 
 from .constants import METERS_TO_FEET, METERS_TO_MILES
 from .exporters import write_csv, write_geojson, write_html_map
 from .gpx_parser import build_segments, gpx_title, parse_gpx_points
-from .model import LinearRegressionGD, build_training_data, segment_features
+from .model import load_or_train_pace_model, segment_features
 from .zones import apply_quantile_zone_refinement, classify_pace_zone, summarize_zones
 
 
-def run_backend(gpx_path: Path, weight_lbs: float, max_speed_mph: float, out_dir: Path) -> None:
+def run_backend_job(
+    gpx_path: Path, weight_lbs: float, max_speed_mph: float, out_dir: Path
+) -> dict[str, float | int | str | Path]:
     if weight_lbs <= 0:
         raise ValueError("weight-lbs must be positive.")
     if max_speed_mph <= 0:
@@ -22,10 +23,7 @@ def run_backend(gpx_path: Path, weight_lbs: float, max_speed_mph: float, out_dir
     points = parse_gpx_points(gpx_path)
     segments = build_segments(points)
 
-    train_x, train_y = build_training_data()
-    model = LinearRegressionGD(learning_rate=0.006, epochs=3200)
-    model.fit(train_x, train_y)
-    baseline = statistics.mean(train_y)
+    model, baseline = load_or_train_pace_model()
 
     segment_rows: list[dict[str, float | str]] = []
     total_distance = 0.0
@@ -81,6 +79,39 @@ def run_backend(gpx_path: Path, weight_lbs: float, max_speed_mph: float, out_dir
     write_geojson(geojson_path, segment_rows)
     write_html_map(html_path, geojson_path.name, title=title)
 
+    return {
+        "title": title,
+        "gpx_path": gpx_path,
+        "weight_lbs": weight_lbs,
+        "max_speed_mph": max_speed_mph,
+        "total_distance_m": total_distance,
+        "total_gain_m": total_gain,
+        "avg_speed_mph": avg_speed,
+        "segment_count": len(segment_rows),
+        "slowdown_count": slowdown_count,
+        "speedup_count": speedup_count,
+        "zones_count": len(zones),
+        "zones": zones,
+        "csv_path": csv_path,
+        "geojson_path": geojson_path,
+        "html_path": html_path,
+    }
+
+
+def run_backend(gpx_path: Path, weight_lbs: float, max_speed_mph: float, out_dir: Path) -> None:
+    result = run_backend_job(gpx_path, weight_lbs, max_speed_mph, out_dir)
+    title = str(result["title"])
+    total_distance = float(result["total_distance_m"])
+    total_gain = float(result["total_gain_m"])
+    avg_speed = float(result["avg_speed_mph"])
+    segment_count = int(result["segment_count"])
+    slowdown_count = int(result["slowdown_count"])
+    speedup_count = int(result["speedup_count"])
+    csv_path = Path(result["csv_path"])
+    geojson_path = Path(result["geojson_path"])
+    html_path = Path(result["html_path"])
+    zones = result["zones"]
+
     print("=" * 62)
     print("Elevation-Aware Hiking Optimization (Backend CLI)")
     print("=" * 62)
@@ -91,7 +122,7 @@ def run_backend(gpx_path: Path, weight_lbs: float, max_speed_mph: float, out_dir
     print(f"Total distance:        {total_distance * METERS_TO_MILES:.2f} mi")
     print(f"Total elevation gain:  {total_gain:,.0f} m / {total_gain * METERS_TO_FEET:,.0f} ft")
     print(f"Recommended avg speed: {avg_speed:.2f} mph")
-    print(f"Segment count:         {len(segment_rows)}")
+    print(f"Segment count:         {segment_count}")
     print(f"Slowdown segments:     {slowdown_count}")
     print(f"Speed-up segments:     {speedup_count}")
     print()

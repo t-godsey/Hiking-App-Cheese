@@ -19,8 +19,9 @@
       "properties": {
         "segment_index": 0,
         "distance_m": 149.4574118482038,
+        "elev_delta_m": 0.4700000000000273,
         "grade_pct": 0.314470854397895,
-        "recommended_speed_mph": 2.765988711751567,
+        "recommended_speed_mph": 2.8045988726700712,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -43,8 +44,9 @@
       "properties": {
         "segment_index": 1,
         "distance_m": 149.23149889467865,
+        "elev_delta_m": 0.5599999999999454,
         "grade_pct": 0.37525589714485813,
-        "recommended_speed_mph": 2.760107674334009,
+        "recommended_speed_mph": 2.7986765502264697,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -67,8 +69,9 @@
       "properties": {
         "segment_index": 2,
         "distance_m": 12.08000717091497,
+        "elev_delta_m": -0.7999999999999545,
         "grade_pct": -6.622512625043091,
-        "recommended_speed_mph": 2.8433936574859344,
+        "recommended_speed_mph": 2.8867153976132487,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -91,8 +94,9 @@
       "properties": {
         "segment_index": 3,
         "distance_m": 50.7013073471976,
+        "elev_delta_m": -2.3899999999998727,
         "grade_pct": -4.713882392880693,
-        "recommended_speed_mph": 2.836450589685224,
+        "recommended_speed_mph": 2.8784759936534834,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -115,8 +119,9 @@
       "properties": {
         "segment_index": 4,
         "distance_m": 28.016363386440435,
+        "elev_delta_m": -2.980000000000018,
         "grade_pct": -10.636641019020693,
-        "recommended_speed_mph": 2.8404983816130014,
+        "recommended_speed_mph": 2.886546506189495,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -139,8 +144,9 @@
       "properties": {
         "segment_index": 5,
         "distance_m": 139.62285290031795,
+        "elev_delta_m": -3.759999999999991,
         "grade_pct": -2.692968895775534,
-        "recommended_speed_mph": 2.8232545026156055,
+        "recommended_speed_mph": 2.8639073079545065,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -163,8 +169,9 @@
       "properties": {
         "segment_index": 6,
         "distance_m": 162.77566735867353,
+        "elev_delta_m": -3.9700000000000273,
         "grade_pct": -2.4389394707577496,
-        "recommended_speed_mph": 2.8211704296003575,
+        "recommended_speed_mph": 2.861650698885095,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -187,8 +194,9 @@
       "properties": {
         "segment_index": 7,
         "distance_m": 135.20884621292387,
+        "elev_delta_m": -2.130000000000109,
         "grade_pct": -1.5753407115432616,
-        "recommended_speed_mph": 2.8133750635654717,
+        "recommended_speed_mph": 2.8532687790591087,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -211,8 +219,9 @@
       "properties": {
         "segment_index": 8,
         "distance_m": 130.47152578138213,
+        "elev_delta_m": 0.5,
         "grade_pct": 0.38322537964168457,
-        "recommended_speed_mph": 2.7593362125516276,
+        "recommended_speed_mph": 2.797899675594519,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -235,8 +244,9 @@
       "properties": {
         "segment_index": 9,
         "distance_m": 263.05105537292314,
+        "elev_delta_m": 3.160000000000082,
         "grade_pct": 1.2012877102964676,
-        "recommended_speed_mph": 2.6796488183306493,
+        "recommended_speed_mph": 2.7176566557936255,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -259,8 +269,9 @@
       "properties": {
         "segment_index": 10,
         "distance_m": 103.57533687922253,
+        "elev_delta_m": 2.9300000000000637,
         "grade_pct": 2.828858769164987,
-        "recommended_speed_mph": 2.518177735230369,
+        "recommended_speed_mph": 2.5550801311156697,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -283,8 +294,9 @@
       "properties": {
         "segment_index": 11,
         "distance_m": 102.30206563016108,
+        "elev_delta_m": 0.1799999999998363,
         "grade_pct": 0.17594952642556225,
-        "recommended_speed_mph": 2.7793705239750244,
+        "recommended_speed_mph": 2.8180747681807072,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -307,8 +319,9 @@
       "properties": {
         "segment_index": 12,
         "distance_m": 87.82333853624486,
+        "elev_delta_m": -1.0499999999999545,
         "grade_pct": -1.195581968871085,
-        "recommended_speed_mph": 2.8095996218899484,
+        "recommended_speed_mph": 2.849235406338825,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -331,8 +344,9 @@
       "properties": {
         "segment_index": 13,
         "distance_m": 130.4123662613654,
+        "elev_delta_m": -2.6800000000000637,
         "grade_pct": -2.0550198396285158,
-        "recommended_speed_mph": 2.8178404738294507,
+        "recommended_speed_mph": 2.858059986005966,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -355,8 +369,9 @@
       "properties": {
         "segment_index": 14,
         "distance_m": 71.45565338068506,
+        "elev_delta_m": -4.639999999999873,
         "grade_pct": -6.493537992410402,
-        "recommended_speed_mph": 2.8430934118617195,
+        "recommended_speed_mph": 2.8863275527898464,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -379,8 +394,9 @@
       "properties": {
         "segment_index": 15,
         "distance_m": 94.10812777699937,
+        "elev_delta_m": -6.870000000000118,
         "grade_pct": -7.300113350761177,
-        "recommended_speed_mph": 2.8445688373913667,
+        "recommended_speed_mph": 2.888350801980888,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -403,8 +419,9 @@
       "properties": {
         "segment_index": 16,
         "distance_m": 88.91365729489988,
+        "elev_delta_m": -8.61999999999989,
         "grade_pct": -9.694798597036607,
-        "recommended_speed_mph": 2.8433073257186168,
+        "recommended_speed_mph": 2.8887157536335066,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -427,8 +444,9 @@
       "properties": {
         "segment_index": 17,
         "distance_m": 94.87057468975769,
+        "elev_delta_m": -7.960000000000036,
         "grade_pct": -8.3903781820976,
-        "recommended_speed_mph": 2.8450411647497917,
+        "recommended_speed_mph": 2.889563634074065,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -451,8 +469,9 @@
       "properties": {
         "segment_index": 18,
         "distance_m": 63.66131983589163,
+        "elev_delta_m": -1.8699999999998909,
         "grade_pct": -2.937419464158836,
-        "recommended_speed_mph": 2.825170308978387,
+        "recommended_speed_mph": 2.8659891444396015,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -475,8 +494,9 @@
       "properties": {
         "segment_index": 19,
         "distance_m": 54.156702759140984,
+        "elev_delta_m": 3.8899999999998727,
         "grade_pct": 7.182859741850307,
-        "recommended_speed_mph": 2.067050416700618,
+        "recommended_speed_mph": 2.100995587659718,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -499,8 +519,9 @@
       "properties": {
         "segment_index": 20,
         "distance_m": 48.2981815539461,
+        "elev_delta_m": 4.309999999999945,
         "grade_pct": 8.923731414579118,
-        "recommended_speed_mph": 1.8788660249761904,
+        "recommended_speed_mph": 1.9116288009068538,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -523,8 +544,9 @@
       "properties": {
         "segment_index": 21,
         "distance_m": 87.10197790988178,
+        "elev_delta_m": 3.8500000000001364,
         "grade_pct": 4.420106285052972,
-        "recommended_speed_mph": 2.356540694783638,
+        "recommended_speed_mph": 2.392362319937085,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -547,8 +569,9 @@
       "properties": {
         "segment_index": 22,
         "distance_m": 39.515361727485804,
+        "elev_delta_m": 3.8199999999999363,
         "grade_pct": 9.667126487020992,
-        "recommended_speed_mph": 1.797147465778929,
+        "recommended_speed_mph": 1.8294053299165016,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -571,8 +594,9 @@
       "properties": {
         "segment_index": 23,
         "distance_m": 48.70568315913945,
+        "elev_delta_m": 4.420000000000073,
         "grade_pct": 9.074916340991052,
-        "recommended_speed_mph": 1.8623127419932957,
+        "recommended_speed_mph": 1.8949728335571767,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -595,8 +619,9 @@
       "properties": {
         "segment_index": 24,
         "distance_m": 58.37846573873429,
+        "elev_delta_m": 5.129999999999882,
         "grade_pct": 8.787486849960347,
-        "recommended_speed_mph": 1.893754662013665,
+        "recommended_speed_mph": 1.926609974860392,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -619,8 +644,9 @@
       "properties": {
         "segment_index": 25,
         "distance_m": 121.57822801969877,
+        "elev_delta_m": 7.210000000000036,
         "grade_pct": 5.93033811845969,
-        "recommended_speed_mph": 2.19968586571868,
+        "recommended_speed_mph": 2.234481745758585,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -643,8 +669,9 @@
       "properties": {
         "segment_index": 26,
         "distance_m": 94.88542751294487,
+        "elev_delta_m": 9.8599999999999,
         "grade_pct": 10.391479765061645,
-        "recommended_speed_mph": 1.716739633890839,
+        "recommended_speed_mph": 1.7485055193672592,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -667,8 +694,9 @@
       "properties": {
         "segment_index": 27,
         "distance_m": 60.03140325576809,
+        "elev_delta_m": 9.700000000000045,
         "grade_pct": 16.15820966015487,
-        "recommended_speed_mph": 1.0490466472345639,
+        "recommended_speed_mph": 1.076895786367697,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -691,8 +719,9 @@
       "properties": {
         "segment_index": 28,
         "distance_m": 105.8322383450814,
+        "elev_delta_m": 6.039999999999964,
         "grade_pct": 5.707145662275106,
-        "recommended_speed_mph": 2.223078366017492,
+        "recommended_speed_mph": 2.2580258377311027,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -715,8 +744,9 @@
       "properties": {
         "segment_index": 29,
         "distance_m": 105.37161491215129,
+        "elev_delta_m": 0.020000000000209184,
         "grade_pct": 0.018980443658269126,
-        "recommended_speed_mph": 2.794500339573507,
+        "recommended_speed_mph": 2.8333111967283173,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -739,8 +769,9 @@
       "properties": {
         "segment_index": 30,
         "distance_m": 179.64416585354164,
+        "elev_delta_m": -4.300000000000182,
         "grade_pct": -2.393620733281057,
-        "recommended_speed_mph": 2.8207886476150206,
+        "recommended_speed_mph": 2.8612381365437294,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -763,8 +794,9 @@
       "properties": {
         "segment_index": 31,
         "distance_m": 159.8392825490194,
+        "elev_delta_m": -4.449999999999818,
         "grade_pct": -2.78404653038598,
-        "recommended_speed_mph": 2.8239785763465677,
+        "recommended_speed_mph": 2.8646932413526986,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -787,8 +819,9 @@
       "properties": {
         "segment_index": 32,
         "distance_m": 82.97554438970403,
+        "elev_delta_m": 0.07999999999992724,
         "grade_pct": 0.09641395014439218,
-        "recommended_speed_mph": 2.7870412707746244,
+        "recommended_speed_mph": 2.825799535314747,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -811,8 +844,9 @@
       "properties": {
         "segment_index": 33,
         "distance_m": 71.22223554998955,
+        "elev_delta_m": 3.9200000000000728,
         "grade_pct": 5.50389912606534,
-        "recommended_speed_mph": 2.244316572856323,
+        "recommended_speed_mph": 2.279402089032214,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -835,8 +869,9 @@
       "properties": {
         "segment_index": 34,
         "distance_m": 134.49890503548085,
+        "elev_delta_m": 4.2199999999998,
         "grade_pct": 3.13757201137553,
-        "recommended_speed_mph": 2.4871104072033914,
+        "recommended_speed_mph": 2.5238031259433167,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -859,8 +894,9 @@
       "properties": {
         "segment_index": 35,
         "distance_m": 107.6290388281705,
+        "elev_delta_m": 4.430000000000064,
         "grade_pct": 4.115989558424421,
-        "recommended_speed_mph": 2.3877206001988314,
+        "recommended_speed_mph": 2.423748780557503,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -883,8 +919,9 @@
       "properties": {
         "segment_index": 36,
         "distance_m": 101.58904944999387,
+        "elev_delta_m": 4.210000000000036,
         "grade_pct": 4.144147447774245,
-        "recommended_speed_mph": 2.3848394001196027,
+        "recommended_speed_mph": 2.42084845572089,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -907,8 +944,9 @@
       "properties": {
         "segment_index": 37,
         "distance_m": 101.50837585692837,
+        "elev_delta_m": 3.5699999999999363,
         "grade_pct": 3.5169511578351873,
-        "recommended_speed_mph": 2.448739498189155,
+        "recommended_speed_mph": 2.4851745437049746,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -931,8 +969,9 @@
       "properties": {
         "segment_index": 38,
         "distance_m": 31.323630209575438,
+        "elev_delta_m": 2.7200000000000273,
         "grade_pct": 8.683540131847618,
-        "recommended_speed_mph": 1.9050954553198132,
+        "recommended_speed_mph": 1.938021368478237,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -955,8 +994,9 @@
       "properties": {
         "segment_index": 39,
         "distance_m": 78.70782930371783,
+        "elev_delta_m": 2.0599999999999454,
         "grade_pct": 2.6172745687736043,
-        "recommended_speed_mph": 2.5393894703677775,
+        "recommended_speed_mph": 2.5764355736328675,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -979,8 +1019,9 @@
       "properties": {
         "segment_index": 40,
         "distance_m": 104.51838013893195,
+        "elev_delta_m": 1.8800000000001091,
         "grade_pct": 1.7987266904644936,
-        "recommended_speed_mph": 2.6208299342064527,
+        "recommended_speed_mph": 2.6584319928340268,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1003,8 +1044,9 @@
       "properties": {
         "segment_index": 41,
         "distance_m": 39.977239224549464,
+        "elev_delta_m": 2.160000000000082,
         "grade_pct": 5.403074454110017,
-        "recommended_speed_mph": 2.25482966373677,
+        "recommended_speed_mph": 2.289983659739596,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1027,8 +1069,9 @@
       "properties": {
         "segment_index": 42,
         "distance_m": 83.33915389502228,
+        "elev_delta_m": 2.6099999999999,
         "grade_pct": 3.131781255287968,
-        "recommended_speed_mph": 2.4876944504046863,
+        "recommended_speed_mph": 2.5243911022094756,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1051,8 +1094,9 @@
       "properties": {
         "segment_index": 43,
         "distance_m": 78.03017854756604,
+        "elev_delta_m": 2.490000000000009,
         "grade_pct": 3.191073051924573,
-        "recommended_speed_mph": 2.481712072715233,
+        "recommended_speed_mph": 2.518368453702438,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1075,8 +1119,9 @@
       "properties": {
         "segment_index": 44,
         "distance_m": 84.76902957266036,
+        "elev_delta_m": 1.599999999999909,
         "grade_pct": 1.8874817938412967,
-        "recommended_speed_mph": 2.6120470200951313,
+        "recommended_speed_mph": 2.649588796512003,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1099,8 +1144,9 @@
       "properties": {
         "segment_index": 45,
         "distance_m": 173.6673518145899,
+        "elev_delta_m": 0.44000000000005457,
         "grade_pct": 0.253357925598938,
-        "recommended_speed_mph": 2.771895989934068,
+        "recommended_speed_mph": 2.810547658577878,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1123,8 +1169,9 @@
       "properties": {
         "segment_index": 46,
         "distance_m": 71.79399406173586,
+        "elev_delta_m": -0.5699999999999363,
         "grade_pct": -0.7939382777754247,
-        "recommended_speed_mph": 2.805375625048184,
+        "recommended_speed_mph": 2.844738614258334,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1147,8 +1194,9 @@
       "properties": {
         "segment_index": 47,
         "distance_m": 80.93438954084516,
+        "elev_delta_m": -0.9500000000000455,
         "grade_pct": -1.173790282955812,
-        "recommended_speed_mph": 2.80937653571137,
+        "recommended_speed_mph": 2.848997519309907,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1171,8 +1219,9 @@
       "properties": {
         "segment_index": 48,
         "distance_m": 99.30749176992501,
+        "elev_delta_m": -0.6900000000000546,
         "grade_pct": -0.6948116277054327,
-        "recommended_speed_mph": 2.8042965987458777,
+        "recommended_speed_mph": 2.843592261420669,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1195,8 +1244,9 @@
       "properties": {
         "segment_index": 49,
         "distance_m": 66.97228349291645,
+        "elev_delta_m": 0.12000000000011823,
         "grade_pct": 0.17917860007388048,
-        "recommended_speed_mph": 2.7790589017869904,
+        "recommended_speed_mph": 2.8177609528151475,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1219,8 +1269,9 @@
       "properties": {
         "segment_index": 50,
         "distance_m": 26.316486939981612,
+        "elev_delta_m": 1.2200000000000273,
         "grade_pct": 4.635877132013881,
-        "recommended_speed_mph": 2.3343359898682405,
+        "recommended_speed_mph": 2.3700110640836,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1243,8 +1294,9 @@
       "properties": {
         "segment_index": 51,
         "distance_m": 37.517593300967626,
+        "elev_delta_m": 2.0599999999999454,
         "grade_pct": 5.4907573187718715,
-        "recommended_speed_mph": 2.245687730512315,
+        "recommended_speed_mph": 2.280782172565887,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1267,8 +1319,9 @@
       "properties": {
         "segment_index": 52,
         "distance_m": 57.958809403343565,
+        "elev_delta_m": 2.6399999999998727,
         "grade_pct": 4.554958991009872,
-        "recommended_speed_mph": 2.342671204365924,
+        "recommended_speed_mph": 2.3784012379497037,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1291,8 +1344,9 @@
       "properties": {
         "segment_index": 53,
         "distance_m": 35.703886651873674,
+        "elev_delta_m": 2.650000000000091,
         "grade_pct": 7.422161138473768,
-        "recommended_speed_mph": 2.041446918873633,
+        "recommended_speed_mph": 2.075229557013055,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1315,8 +1369,9 @@
       "properties": {
         "segment_index": 54,
         "distance_m": 62.62540513511605,
+        "elev_delta_m": 1.9500000000000455,
         "grade_pct": 3.1137523115305465,
-        "recommended_speed_mph": 2.4895124948267755,
+        "recommended_speed_mph": 2.5262213918382623,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1339,8 +1394,9 @@
       "properties": {
         "segment_index": 55,
         "distance_m": 122.51998433747755,
+        "elev_delta_m": 1.0499999999999545,
         "grade_pct": 0.8570030478519828,
-        "recommended_speed_mph": 2.71330561102597,
+        "recommended_speed_mph": 2.75154728564054,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1363,8 +1419,9 @@
       "properties": {
         "segment_index": 56,
         "distance_m": 104.75431191339923,
+        "elev_delta_m": 0.14000000000010004,
         "grade_pct": 0.13364604992664983,
-        "recommended_speed_mph": 2.7834516090597985,
+        "recommended_speed_mph": 2.8221845856649344,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1387,8 +1444,9 @@
       "properties": {
         "segment_index": 57,
         "distance_m": 34.17952781290971,
+        "elev_delta_m": -0.21000000000003638,
         "grade_pct": -0.6144028704829525,
-        "recommended_speed_mph": 2.80341069820837,
+        "recommended_speed_mph": 2.8426517474867397,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1411,8 +1469,9 @@
       "properties": {
         "segment_index": 58,
         "distance_m": 18.7817827066352,
+        "elev_delta_m": 0.1799999999998363,
         "grade_pct": 0.9583754791085201,
-        "recommended_speed_mph": 2.7034137053325993,
+        "recommended_speed_mph": 2.7415865280836944,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1435,8 +1494,9 @@
       "properties": {
         "segment_index": 59,
         "distance_m": 23.3762774136753,
+        "elev_delta_m": 0.5600000000001728,
         "grade_pct": 2.395591009167989,
-        "recommended_speed_mph": 2.561542997222767,
+        "recommended_speed_mph": 2.598739667323351,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -1459,8 +1519,9 @@
       "properties": {
         "segment_index": 60,
         "distance_m": 53.193423375464214,
+        "elev_delta_m": 0.8099999999999454,
         "grade_pct": 1.5227446338292316,
-        "recommended_speed_mph": 2.6480661301479946,
+        "recommended_speed_mph": 2.6858556349939287,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1483,8 +1544,9 @@
       "properties": {
         "segment_index": 61,
         "distance_m": 51.66953619151136,
+        "elev_delta_m": 0.8199999999999363,
         "grade_pct": 1.5870086330185633,
-        "recommended_speed_mph": 2.641734039808035,
+        "recommended_speed_mph": 2.6794798967307254,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1507,8 +1569,9 @@
       "properties": {
         "segment_index": 62,
         "distance_m": 32.87051638691139,
+        "elev_delta_m": 0.6600000000000819,
         "grade_pct": 2.0078784045597935,
-        "recommended_speed_mph": 2.6001144334627746,
+        "recommended_speed_mph": 2.637574436848248,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1531,8 +1594,9 @@
       "properties": {
         "segment_index": 63,
         "distance_m": 85.9689369513849,
+        "elev_delta_m": 0.849999999999909,
         "grade_pct": 0.9887292202770644,
-        "recommended_speed_mph": 2.7004488494008756,
+        "recommended_speed_mph": 2.7386010559783527,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1555,8 +1619,9 @@
       "properties": {
         "segment_index": 64,
         "distance_m": 119.42308032866914,
+        "elev_delta_m": 1.150000000000091,
         "grade_pct": 0.9629629355021901,
-        "recommended_speed_mph": 2.7029657043217377,
+        "recommended_speed_mph": 2.7411354112856565,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1579,8 +1644,9 @@
       "properties": {
         "segment_index": 65,
         "distance_m": 55.778047833997746,
+        "elev_delta_m": 0.7400000000000091,
         "grade_pct": 1.3266868037446184,
-        "recommended_speed_mph": 2.6673466289801406,
+        "recommended_speed_mph": 2.7052692957398503,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1603,8 +1669,9 @@
       "properties": {
         "segment_index": 66,
         "distance_m": 67.02082272910216,
+        "elev_delta_m": -0.15000000000009095,
         "grade_pct": -0.22381103945320133,
-        "recommended_speed_mph": 2.798971970695404,
+        "recommended_speed_mph": 2.8379477311265875,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1627,8 +1694,9 @@
       "properties": {
         "segment_index": 67,
         "distance_m": 94.47953170785252,
+        "elev_delta_m": -0.6699999999998454,
         "grade_pct": -0.7091483074573277,
-        "recommended_speed_mph": 2.804453552891181,
+        "recommended_speed_mph": 2.843758952997587,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1651,8 +1719,9 @@
       "properties": {
         "segment_index": 68,
         "distance_m": 78.20444208134867,
+        "elev_delta_m": -0.42000000000007276,
         "grade_pct": -0.5370538921090782,
-        "recommended_speed_mph": 2.802549528027771,
+        "recommended_speed_mph": 2.841738042102704,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1675,8 +1744,9 @@
       "properties": {
         "segment_index": 69,
         "distance_m": 67.77063508470883,
+        "elev_delta_m": 0.13999999999987267,
         "grade_pct": 0.20657914718503362,
-        "recommended_speed_mph": 2.776413990612295,
+        "recommended_speed_mph": 2.8150974312677355,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1699,8 +1769,9 @@
       "properties": {
         "segment_index": 70,
         "distance_m": 86.69229116171825,
+        "elev_delta_m": 0.2599999999999909,
         "grade_pct": 0.2999113260427961,
-        "recommended_speed_mph": 2.767396559017981,
+        "recommended_speed_mph": 2.8060166087262295,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1723,8 +1794,9 @@
       "properties": {
         "segment_index": 71,
         "distance_m": 81.94004910104287,
+        "elev_delta_m": -0.209999999999809,
         "grade_pct": -0.25628493307448635,
-        "recommended_speed_mph": 2.7993495665033477,
+        "recommended_speed_mph": 2.838347383109592,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1747,8 +1819,9 @@
       "properties": {
         "segment_index": 72,
         "distance_m": 54.34800456181049,
+        "elev_delta_m": -0.7300000000000182,
         "grade_pct": -1.3431955890299199,
-        "recommended_speed_mph": 2.811092370140724,
+        "recommended_speed_mph": 2.8508284133354573,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1771,8 +1844,9 @@
       "properties": {
         "segment_index": 73,
         "distance_m": 46.69957240581805,
+        "elev_delta_m": -1.2000000000000455,
         "grade_pct": -2.5696166756562078,
-        "recommended_speed_mph": 2.8222543768176815,
+        "recommended_speed_mph": 2.862823401683788,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -1795,8 +1869,9 @@
       "properties": {
         "segment_index": 74,
         "distance_m": 185.42030101010474,
+        "elev_delta_m": -1.490000000000009,
         "grade_pct": -0.8035797546886787,
-        "recommended_speed_mph": 2.805479803901712,
+        "recommended_speed_mph": 2.844849341575225,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1819,8 +1894,9 @@
       "properties": {
         "segment_index": 75,
         "distance_m": 188.28578626248418,
+        "elev_delta_m": -1.4300000000000637,
         "grade_pct": -0.7594837764368144,
-        "recommended_speed_mph": 2.805002216360346,
+        "recommended_speed_mph": 2.8443418041723754,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1843,8 +1919,9 @@
       "properties": {
         "segment_index": 76,
         "distance_m": 103.65007689365943,
+        "elev_delta_m": -1.5599999999999454,
         "grade_pct": -1.5050640064651752,
-        "recommended_speed_mph": 2.812692401691741,
+        "recommended_speed_mph": 2.852538385449604,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1867,8 +1944,9 @@
       "properties": {
         "segment_index": 77,
         "distance_m": 104.61848952444352,
+        "elev_delta_m": -1.4700000000000273,
         "grade_pct": -1.4051053563113909,
-        "recommended_speed_mph": 2.8117088882616335,
+        "recommended_speed_mph": 2.8514869803920764,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1891,8 +1969,9 @@
       "properties": {
         "segment_index": 78,
         "distance_m": 78.852769676353,
+        "elev_delta_m": -0.6299999999998818,
         "grade_pct": -0.7989573512581527,
-        "recommended_speed_mph": 2.8054298746150765,
+        "recommended_speed_mph": 2.8447962727654867,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1915,8 +1994,9 @@
       "properties": {
         "segment_index": 79,
         "distance_m": 89.32114126234555,
+        "elev_delta_m": -0.15000000000009095,
         "grade_pct": -0.16793336703964096,
-        "recommended_speed_mph": 2.7983186099931183,
+        "recommended_speed_mph": 2.837256418470061,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1939,8 +2019,9 @@
       "properties": {
         "segment_index": 80,
         "distance_m": 82.7035966903182,
+        "elev_delta_m": -0.01999999999998181,
         "grade_pct": -0.024182745128813892,
-        "recommended_speed_mph": 2.7966166574942166,
+        "recommended_speed_mph": 2.8354568309625914,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1963,8 +2044,9 @@
       "properties": {
         "segment_index": 81,
         "distance_m": 133.72724706352253,
+        "elev_delta_m": -0.07999999999992724,
         "grade_pct": -0.05982326097083716,
-        "recommended_speed_mph": 2.7970414633790495,
+        "recommended_speed_mph": 2.835905843783181,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -1987,8 +2069,9 @@
       "properties": {
         "segment_index": 82,
         "distance_m": 60.83006870762506,
+        "elev_delta_m": -0.43000000000006366,
         "grade_pct": -0.7068872502295285,
-        "recommended_speed_mph": 2.804428819534621,
+        "recommended_speed_mph": 2.8437326839374673,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2011,8 +2094,9 @@
       "properties": {
         "segment_index": 83,
         "distance_m": 77.71124091176218,
+        "elev_delta_m": -0.6300000000001091,
         "grade_pct": -0.8106935272278659,
-        "recommended_speed_mph": 2.805556582479874,
+        "recommended_speed_mph": 2.8449309518072163,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2035,8 +2119,9 @@
       "properties": {
         "segment_index": 84,
         "distance_m": 45.53536883976031,
+        "elev_delta_m": -0.8599999999999,
         "grade_pct": -1.8886417787154723,
-        "recommended_speed_mph": 2.816329997336277,
+        "recommended_speed_mph": 2.8564365060127956,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2059,8 +2144,9 @@
       "properties": {
         "segment_index": 85,
         "distance_m": 91.03758749621045,
+        "elev_delta_m": -0.8099999999999454,
         "grade_pct": -0.8897423825446414,
-        "recommended_speed_mph": 2.8064047399181016,
+        "recommended_speed_mph": 2.845832799000407,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2083,8 +2169,9 @@
       "properties": {
         "segment_index": 86,
         "distance_m": 177.8057691832341,
+        "elev_delta_m": -0.9500000000000455,
         "grade_pct": -0.5342908750171331,
-        "recommended_speed_mph": 2.802518602878224,
+        "recommended_speed_mph": 2.8417052403199023,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2107,8 +2194,9 @@
       "properties": {
         "segment_index": 87,
         "distance_m": 158.07515155679738,
+        "elev_delta_m": -1.240000000000009,
         "grade_pct": -0.7844370147919608,
-        "recommended_speed_mph": 2.8052728273863305,
+        "recommended_speed_mph": 2.8446293633660145,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2131,8 +2219,9 @@
       "properties": {
         "segment_index": 88,
         "distance_m": 89.26293322578634,
+        "elev_delta_m": -2.4400000000000546,
         "grade_pct": -2.7334974460543333,
-        "recommended_speed_mph": 2.823578215273972,
+        "recommended_speed_mph": 2.8642585474875473,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2155,8 +2244,9 @@
       "properties": {
         "segment_index": 89,
         "distance_m": 106.50235458164809,
+        "elev_delta_m": -3.7899999999999636,
         "grade_pct": -3.5586067696695185,
-        "recommended_speed_mph": 2.829642923839855,
+        "recommended_speed_mph": 2.8708836679306766,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2179,8 +2269,9 @@
       "properties": {
         "segment_index": 90,
         "distance_m": 121.64001774242858,
+        "elev_delta_m": -4.519999999999982,
         "grade_pct": -3.715882391246467,
-        "recommended_speed_mph": 2.830685217454141,
+        "recommended_speed_mph": 2.872032782694367,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2203,8 +2294,9 @@
       "properties": {
         "segment_index": 91,
         "distance_m": 121.6268521734004,
+        "elev_delta_m": -4.220000000000027,
         "grade_pct": -3.4696285602982457,
-        "recommended_speed_mph": 2.8290371232818563,
+        "recommended_speed_mph": 2.8702174336290263,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2227,8 +2319,9 @@
       "properties": {
         "segment_index": 92,
         "distance_m": 146.44593227497367,
+        "elev_delta_m": -2.25,
         "grade_pct": -1.5364032070042721,
-        "recommended_speed_mph": 2.8129977260793133,
+        "recommended_speed_mph": 2.8528649953319616,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2251,8 +2344,9 @@
       "properties": {
         "segment_index": 93,
         "distance_m": 102.65385058269284,
+        "elev_delta_m": -1.75,
         "grade_pct": -1.7047582629063553,
-        "recommended_speed_mph": 2.8146131940778183,
+        "recommended_speed_mph": 2.854594809599769,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2275,8 +2369,9 @@
       "properties": {
         "segment_index": 94,
         "distance_m": 126.05777601111947,
+        "elev_delta_m": 0.09999999999990905,
         "grade_pct": 0.07932870399925834,
-        "recommended_speed_mph": 2.7886878291135764,
+        "recommended_speed_mph": 2.827457697903696,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2299,8 +2394,9 @@
       "properties": {
         "segment_index": 95,
         "distance_m": 126.74310654875136,
+        "elev_delta_m": 3.1400000000001,
         "grade_pct": 2.4774522934644247,
-        "recommended_speed_mph": 2.5533707687271625,
+        "recommended_speed_mph": 2.590511838879118,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -2323,8 +2419,9 @@
       "properties": {
         "segment_index": 96,
         "distance_m": 129.0187142491519,
+        "elev_delta_m": 4.230000000000018,
         "grade_pct": 3.2785941362206867,
-        "recommended_speed_mph": 2.4728719815750324,
+        "recommended_speed_mph": 2.509468918493742,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -2347,8 +2444,9 @@
       "properties": {
         "segment_index": 97,
         "distance_m": 159.62256281429,
+        "elev_delta_m": 5.149999999999864,
         "grade_pct": 3.226360928681203,
-        "recommended_speed_mph": 2.478149167584252,
+        "recommended_speed_mph": 2.514781581147152,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -2371,8 +2469,9 @@
       "properties": {
         "segment_index": 98,
         "distance_m": 160.33192726055444,
+        "elev_delta_m": 4.9500000000000455,
         "grade_pct": 3.087345162361724,
-        "recommended_speed_mph": 2.492174536533059,
+        "recommended_speed_mph": 2.52890136920424,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -2395,8 +2494,9 @@
       "properties": {
         "segment_index": 99,
         "distance_m": 136.14432507528494,
+        "elev_delta_m": 3.8400000000001455,
         "grade_pct": 2.820536219836344,
-        "recommended_speed_mph": 2.5190133322971686,
+        "recommended_speed_mph": 2.5559213808340138,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -2419,8 +2519,9 @@
       "properties": {
         "segment_index": 100,
         "distance_m": 117.38533153882288,
+        "elev_delta_m": 2.6699999999998454,
         "grade_pct": 2.274560172892467,
-        "recommended_speed_mph": 2.573607457261883,
+        "recommended_speed_mph": 2.6108863311580377,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2443,8 +2544,9 @@
       "properties": {
         "segment_index": 101,
         "distance_m": 108.37691262477628,
+        "elev_delta_m": 2.509999999999991,
         "grade_pct": 2.31599142216769,
-        "recommended_speed_mph": 2.56947998112773,
+        "recommended_speed_mph": 2.606730715038651,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2467,8 +2569,9 @@
       "properties": {
         "segment_index": 102,
         "distance_m": 114.83493694195258,
+        "elev_delta_m": 1.150000000000091,
         "grade_pct": 1.0014373940758112,
-        "recommended_speed_mph": 2.6992071530538433,
+        "recommended_speed_mph": 2.737350728276261,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2491,8 +2594,9 @@
       "properties": {
         "segment_index": 103,
         "distance_m": 169.10913134905303,
+        "elev_delta_m": -2.349999999999909,
         "grade_pct": -1.3896351907510809,
-        "recommended_speed_mph": 2.8115553599351415,
+        "recommended_speed_mph": 2.8513229447736714,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2515,8 +2619,9 @@
       "properties": {
         "segment_index": 104,
         "distance_m": 169.24407766506968,
+        "elev_delta_m": -4.270000000000209,
         "grade_pct": -2.522983408879125,
-        "recommended_speed_mph": 2.82187044553716,
+        "recommended_speed_mph": 2.8624077972227213,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2539,8 +2644,9 @@
       "properties": {
         "segment_index": 105,
         "distance_m": 136.5835176657822,
+        "elev_delta_m": -5.069999999999936,
         "grade_pct": -3.7120145143765804,
-        "recommended_speed_mph": 2.8306600210427835,
+        "recommended_speed_mph": 2.8720049592321746,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2563,8 +2669,9 @@
       "properties": {
         "segment_index": 106,
         "distance_m": 137.3002496770647,
+        "elev_delta_m": -5.879999999999882,
         "grade_pct": -4.282585074557301,
-        "recommended_speed_mph": 2.8341389016859466,
+        "recommended_speed_mph": 2.8758713697572347,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2587,8 +2694,9 @@
       "properties": {
         "segment_index": 107,
         "distance_m": 132.40730411040838,
+        "elev_delta_m": -5.830000000000155,
         "grade_pct": -4.4030803581189035,
-        "recommended_speed_mph": 2.8348123004157793,
+        "recommended_speed_mph": 2.8766266085367764,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2611,8 +2719,9 @@
       "properties": {
         "segment_index": 108,
         "distance_m": 133.19013422923072,
+        "elev_delta_m": -4.990000000000009,
         "grade_pct": -3.746523741324433,
-        "recommended_speed_mph": 2.83088404539181,
+        "recommended_speed_mph": 2.872252422148798,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2635,8 +2744,9 @@
       "properties": {
         "segment_index": 109,
         "distance_m": 62.98219518926142,
+        "elev_delta_m": -4.449999999999818,
         "grade_pct": -7.06548888400535,
-        "recommended_speed_mph": 2.8442384143023447,
+        "recommended_speed_mph": 2.8878610226294907,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2659,8 +2769,9 @@
       "properties": {
         "segment_index": 110,
         "distance_m": 28.15048776725547,
+        "elev_delta_m": -4.800000000000182,
         "grade_pct": -17.05121431531116,
-        "recommended_speed_mph": 2.78663828293495,
+        "recommended_speed_mph": 2.8370431672277903,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2683,8 +2794,9 @@
       "properties": {
         "segment_index": 111,
         "distance_m": 78.59061126476686,
+        "elev_delta_m": -5.449999999999818,
         "grade_pct": -6.934670582519213,
-        "recommended_speed_mph": 2.84401899767954,
+        "recommended_speed_mph": 2.887552754592921,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2707,8 +2819,9 @@
       "properties": {
         "segment_index": 112,
         "distance_m": 129.05590171357858,
+        "elev_delta_m": -5.670000000000073,
         "grade_pct": -4.3934449527026205,
-        "recommended_speed_mph": 2.834759238238203,
+        "recommended_speed_mph": 2.87656700201958,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2731,8 +2844,9 @@
       "properties": {
         "segment_index": 113,
         "distance_m": 73.37894948316475,
+        "elev_delta_m": -5.670000000000073,
         "grade_pct": -7.727011683781239,
-        "recommended_speed_mph": 2.844962199807634,
+        "recommended_speed_mph": 2.8890341125159735,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2755,8 +2869,9 @@
       "properties": {
         "segment_index": 114,
         "distance_m": 70.83496338807312,
+        "elev_delta_m": -7.3599999999999,
         "grade_pct": -10.390349126995023,
-        "recommended_speed_mph": 2.8413589992985115,
+        "recommended_speed_mph": 2.8872398431309745,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2779,8 +2894,9 @@
       "properties": {
         "segment_index": 115,
         "distance_m": 105.5453651561169,
+        "elev_delta_m": -6.830000000000155,
         "grade_pct": -6.4711510447641105,
-        "recommended_speed_mph": 2.8430388024541053,
+        "recommended_speed_mph": 2.886257738231839,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2803,8 +2919,9 @@
       "properties": {
         "segment_index": 116,
         "distance_m": 107.08535092808567,
+        "elev_delta_m": -5.619999999999891,
         "grade_pct": -5.248150144994214,
-        "recommended_speed_mph": 2.8389345166149735,
+        "recommended_speed_mph": 2.8813227937024,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2827,8 +2944,9 @@
       "properties": {
         "segment_index": 117,
         "distance_m": 116.88555040582997,
+        "elev_delta_m": -7.529999999999973,
         "grade_pct": -6.4421992058518756,
-        "recommended_speed_mph": 2.8429670851195215,
+        "recommended_speed_mph": 2.8861663568916134,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2851,8 +2969,9 @@
       "properties": {
         "segment_index": 118,
         "distance_m": 191.3436907115104,
+        "elev_delta_m": -8.579999999999927,
         "grade_pct": -4.484077822527227,
-        "recommended_speed_mph": 2.8352529506453408,
+        "recommended_speed_mph": 2.877122272010986,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2875,8 +2994,9 @@
       "properties": {
         "segment_index": 119,
         "distance_m": 192.22023478585248,
+        "elev_delta_m": -8.470000000000027,
         "grade_pct": -4.406403940478083,
-        "recommended_speed_mph": 2.8348305716852353,
+        "recommended_speed_mph": 2.8766471371738027,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2899,8 +3019,9 @@
       "properties": {
         "segment_index": 120,
         "distance_m": 48.900814307539186,
+        "elev_delta_m": -8.190000000000055,
         "grade_pct": -16.74818735837979,
-        "recommended_speed_mph": 2.790545651268339,
+        "recommended_speed_mph": 2.8407447205243956,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -2923,8 +3044,9 @@
       "properties": {
         "segment_index": 121,
         "distance_m": 111.03478158438533,
+        "elev_delta_m": -7.849999999999909,
         "grade_pct": -7.06985674937721,
-        "recommended_speed_mph": 2.844245305784834,
+        "recommended_speed_mph": 2.8878708807535665,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2947,8 +3069,9 @@
       "properties": {
         "segment_index": 122,
         "distance_m": 181.54181090953753,
+        "elev_delta_m": -6.9500000000000455,
         "grade_pct": -3.828319198304812,
-        "recommended_speed_mph": 2.83140803739659,
+        "recommended_speed_mph": 2.8728319693924833,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2971,8 +3094,9 @@
       "properties": {
         "segment_index": 123,
         "distance_m": 179.70969774381487,
+        "elev_delta_m": -5.690000000000055,
         "grade_pct": -3.1662175561117647,
-        "recommended_speed_mph": 2.8268837538163964,
+        "recommended_speed_mph": 2.867857988282993,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -2995,8 +3119,9 @@
       "properties": {
         "segment_index": 124,
         "distance_m": 179.86582129377305,
+        "elev_delta_m": -4.4500000000000455,
         "grade_pct": -2.47406648355493,
-        "recommended_speed_mph": 2.821464272958957,
+        "recommended_speed_mph": 2.8619684004096615,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3019,8 +3144,9 @@
       "properties": {
         "segment_index": 125,
         "distance_m": 118.67560014997143,
+        "elev_delta_m": -3.259999999999991,
         "grade_pct": -2.7469842123235946,
-        "recommended_speed_mph": 2.8236854016281447,
+        "recommended_speed_mph": 2.864374894014544,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3043,8 +3169,9 @@
       "properties": {
         "segment_index": 126,
         "distance_m": 135.06865769163574,
+        "elev_delta_m": -1.9100000000000819,
         "grade_pct": -1.4140956404265506,
-        "recommended_speed_mph": 2.8117979473926313,
+        "recommended_speed_mph": 2.8515821456981634,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3067,8 +3194,9 @@
       "properties": {
         "segment_index": 127,
         "distance_m": 135.7390712623319,
+        "elev_delta_m": -0.5199999999999818,
         "grade_pct": -0.3830879312523216,
-        "recommended_speed_mph": 2.800809125966754,
+        "recommended_speed_mph": 2.8398930668043154,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3091,8 +3219,9 @@
       "properties": {
         "segment_index": 128,
         "distance_m": 162.0100223960486,
+        "elev_delta_m": 0.6700000000000728,
         "grade_pct": 0.41355466167530996,
-        "recommended_speed_mph": 2.7563994227413464,
+        "recommended_speed_mph": 2.7949422862231934,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3115,8 +3244,9 @@
       "properties": {
         "segment_index": 129,
         "distance_m": 143.25983360567162,
+        "elev_delta_m": 1.5899999999999181,
         "grade_pct": 1.1098714552304008,
-        "recommended_speed_mph": 2.688602558035838,
+        "recommended_speed_mph": 2.726672485156083,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3139,8 +3269,9 @@
       "properties": {
         "segment_index": 130,
         "distance_m": 40.72608680186889,
+        "elev_delta_m": 1.990000000000009,
         "grade_pct": 4.886302997096911,
-        "recommended_speed_mph": 2.308479057635255,
+        "recommended_speed_mph": 2.343984043323985,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -3163,8 +3294,9 @@
       "properties": {
         "segment_index": 131,
         "distance_m": 86.46201349753903,
+        "elev_delta_m": 1.3300000000001546,
         "grade_pct": 1.5382477763347604,
-        "recommended_speed_mph": 2.6465391236368925,
+        "recommended_speed_mph": 2.684318098793068,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3187,8 +3319,9 @@
       "properties": {
         "segment_index": 132,
         "distance_m": 79.30677878234296,
+        "elev_delta_m": -0.2599999999999909,
         "grade_pct": -0.32784082772238116,
-        "recommended_speed_mph": 2.8001761164826746,
+        "recommended_speed_mph": 2.839222533646566,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3211,8 +3344,9 @@
       "properties": {
         "segment_index": 133,
         "distance_m": 131.25373366105987,
+        "elev_delta_m": -1.5600000000001728,
         "grade_pct": -1.1885376183115703,
-        "recommended_speed_mph": 2.8095275838141474,
+        "recommended_speed_mph": 2.849158583760403,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3235,8 +3369,9 @@
       "properties": {
         "segment_index": 134,
         "distance_m": 159.89393009470064,
+        "elev_delta_m": -1.8899999999998727,
         "grade_pct": -1.1820336137090879,
-        "recommended_speed_mph": 2.809461006658532,
+        "recommended_speed_mph": 2.849087589103586,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3259,8 +3394,9 @@
       "properties": {
         "segment_index": 135,
         "distance_m": 124.13564830191079,
+        "elev_delta_m": -1.8099999999999454,
         "grade_pct": -1.4580823677642039,
-        "recommended_speed_mph": 2.8122319716200996,
+        "recommended_speed_mph": 2.852046045584209,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3283,8 +3419,9 @@
       "properties": {
         "segment_index": 136,
         "distance_m": 190.32071022777245,
+        "elev_delta_m": -1.6100000000001273,
         "grade_pct": -0.8459405169691243,
-        "recommended_speed_mph": 2.8059359025381703,
+        "recommended_speed_mph": 2.8453342115194746,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3307,8 +3444,9 @@
       "properties": {
         "segment_index": 137,
         "distance_m": 144.62679656455265,
+        "elev_delta_m": -1.4400000000000546,
         "grade_pct": -0.9956661104343314,
-        "recommended_speed_mph": 2.8075268323140072,
+        "recommended_speed_mph": 2.847026834487358,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3331,8 +3469,9 @@
       "properties": {
         "segment_index": 138,
         "distance_m": 135.6752219602111,
+        "elev_delta_m": -1.6799999999998363,
         "grade_pct": -1.238251152809997,
-        "recommended_speed_mph": 2.8100344112187856,
+        "recommended_speed_mph": 2.849699176454556,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3355,8 +3494,9 @@
       "properties": {
         "segment_index": 139,
         "distance_m": 136.39290806085452,
+        "elev_delta_m": -2.0700000000001637,
         "grade_pct": -1.5176742173988917,
-        "recommended_speed_mph": 2.8128154313872704,
+        "recommended_speed_mph": 2.852669979964096,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3379,8 +3519,9 @@
       "properties": {
         "segment_index": 140,
         "distance_m": 97.64969854668823,
+        "elev_delta_m": -2.0799999999999272,
         "grade_pct": -2.1300628992781157,
-        "recommended_speed_mph": 2.818508424611148,
+        "recommended_speed_mph": 2.8587789058177413,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3403,8 +3544,9 @@
       "properties": {
         "segment_index": 141,
         "distance_m": 82.13807688355612,
+        "elev_delta_m": -1.6900000000000546,
         "grade_pct": -2.057511040093987,
-        "recommended_speed_mph": 2.8178627807768515,
+        "recommended_speed_mph": 2.8580839849695514,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3427,8 +3569,9 @@
       "properties": {
         "segment_index": 142,
         "distance_m": 77.3390172287247,
+        "elev_delta_m": -1.3899999999998727,
         "grade_pct": -1.797281695329856,
-        "recommended_speed_mph": 2.815483247578781,
+        "recommended_speed_mph": 2.8555277047496745,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3451,8 +3594,9 @@
       "properties": {
         "segment_index": 143,
         "distance_m": 54.620059265333005,
+        "elev_delta_m": -1.7799999999999727,
         "grade_pct": -3.258875995269612,
-        "recommended_speed_mph": 2.8275557416574726,
+        "recommended_speed_mph": 2.8685929094691973,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3475,8 +3619,9 @@
       "properties": {
         "segment_index": 144,
         "distance_m": 153.26135134286204,
+        "elev_delta_m": -2.5800000000001546,
         "grade_pct": -1.683398963531529,
-        "recommended_speed_mph": 2.8144105495121456,
+        "recommended_speed_mph": 2.8543776578594513,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3499,8 +3644,9 @@
       "properties": {
         "segment_index": 145,
         "distance_m": 153.15687410400707,
+        "elev_delta_m": -3.1599999999998545,
         "grade_pct": -2.0632439898544384,
-        "recommended_speed_mph": 2.8179140806081913,
+        "recommended_speed_mph": 2.858139178603864,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3523,8 +3669,9 @@
       "properties": {
         "segment_index": 146,
         "distance_m": 191.13454410709383,
+        "elev_delta_m": -3.5299999999999727,
         "grade_pct": -1.8468665706090743,
-        "recommended_speed_mph": 2.815944338011963,
+        "recommended_speed_mph": 2.856022473087399,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3547,8 +3694,9 @@
       "properties": {
         "segment_index": 147,
         "distance_m": 180.97516842984928,
+        "elev_delta_m": -4.660000000000082,
         "grade_pct": -2.574938893788857,
-        "recommended_speed_mph": 2.822297991083092,
+        "recommended_speed_mph": 2.862870630784432,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3571,8 +3719,9 @@
       "properties": {
         "segment_index": 148,
         "distance_m": 126.8176466693525,
+        "elev_delta_m": -4.769999999999982,
         "grade_pct": -3.761306194583981,
-        "recommended_speed_mph": 2.8309794727178845,
+        "recommended_speed_mph": 2.8723578896745705,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3595,8 +3744,9 @@
       "properties": {
         "segment_index": 149,
         "distance_m": 127.36285039469394,
+        "elev_delta_m": -1.8099999999999454,
         "grade_pct": -1.4211365358036552,
-        "recommended_speed_mph": 2.811867612508124,
+        "recommended_speed_mph": 2.851656592969527,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3619,8 +3769,9 @@
       "properties": {
         "segment_index": 150,
         "distance_m": 90.17558451433901,
+        "elev_delta_m": -0.20000000000004547,
         "grade_pct": -0.22178952437867822,
-        "recommended_speed_mph": 2.7989484138580174,
+        "recommended_speed_mph": 2.8379228012819815,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3643,8 +3794,9 @@
       "properties": {
         "segment_index": 151,
         "distance_m": 46.25128403886029,
+        "elev_delta_m": -1.0699999999999363,
         "grade_pct": -2.3134492852153534,
-        "recommended_speed_mph": 2.8201058489352286,
+        "recommended_speed_mph": 2.860500885647211,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3667,8 +3819,9 @@
       "properties": {
         "segment_index": 152,
         "distance_m": 114.22458112701294,
+        "elev_delta_m": -0.3400000000001455,
         "grade_pct": -0.29765922242435694,
-        "recommended_speed_mph": 2.799828404494473,
+        "recommended_speed_mph": 2.8388543223989333,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3691,8 +3844,9 @@
       "properties": {
         "segment_index": 153,
         "distance_m": 191.6131187424537,
+        "elev_delta_m": 0.9800000000000182,
         "grade_pct": 0.5114472361974504,
-        "recommended_speed_mph": 2.7469112293037705,
+        "recommended_speed_mph": 2.7853876044308183,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3715,8 +3869,9 @@
       "properties": {
         "segment_index": 154,
         "distance_m": 191.9518283653036,
+        "elev_delta_m": 0.7100000000000364,
         "grade_pct": 0.36988446843488,
-        "recommended_speed_mph": 2.760627586594329,
+        "recommended_speed_mph": 2.799200110745706,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3739,8 +3894,9 @@
       "properties": {
         "segment_index": 155,
         "distance_m": 163.82804057229657,
+        "elev_delta_m": 0.2999999999999545,
         "grade_pct": 0.18311883542766655,
-        "recommended_speed_mph": 2.7786786280522886,
+        "recommended_speed_mph": 2.8173780028839364,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3763,8 +3919,9 @@
       "properties": {
         "segment_index": 156,
         "distance_m": 130.4386156978795,
+        "elev_delta_m": -0.11999999999989086,
         "grade_pct": -0.09199729647379389,
-        "recommended_speed_mph": 2.7974233458479043,
+        "recommended_speed_mph": 2.8363095787643258,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3787,8 +3944,9 @@
       "properties": {
         "segment_index": 157,
         "distance_m": 130.5748812234985,
+        "elev_delta_m": -1.4800000000000182,
         "grade_pct": -1.133449240874113,
-        "recommended_speed_mph": 2.8089617110644602,
+        "recommended_speed_mph": 2.848555295143351,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3811,8 +3969,9 @@
       "properties": {
         "segment_index": 158,
         "distance_m": 116.67761170110403,
+        "elev_delta_m": -2.6900000000000546,
         "grade_pct": -2.305497996386055,
-        "recommended_speed_mph": 2.8200376142560333,
+        "recommended_speed_mph": 2.8604272504755333,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3835,8 +3994,9 @@
       "properties": {
         "segment_index": 159,
         "distance_m": 95.5463532304146,
+        "elev_delta_m": -3.089999999999918,
         "grade_pct": -3.234032378554769,
-        "recommended_speed_mph": 2.8273768079593458,
+        "recommended_speed_mph": 2.8683971020581183,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3859,8 +4019,9 @@
       "properties": {
         "segment_index": 160,
         "distance_m": 83.8986889980652,
+        "elev_delta_m": -2.300000000000182,
         "grade_pct": -2.741401596934635,
-        "recommended_speed_mph": 2.8236410661522022,
+        "recommended_speed_mph": 2.8643267668423005,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3883,8 +4044,9 @@
       "properties": {
         "segment_index": 161,
         "distance_m": 124.4403427545664,
+        "elev_delta_m": -1.8199999999999363,
         "grade_pct": -1.4625482056004306,
-        "recommended_speed_mph": 2.8122758775209573,
+        "recommended_speed_mph": 2.8520929846692686,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -3907,8 +4069,9 @@
       "properties": {
         "segment_index": 162,
         "distance_m": 121.99439997918286,
+        "elev_delta_m": -3.5499999999999545,
         "grade_pct": -2.9099696384471145,
-        "recommended_speed_mph": 2.824959563312091,
+        "recommended_speed_mph": 2.8657597549307057,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3931,8 +4094,9 @@
       "properties": {
         "segment_index": 163,
         "distance_m": 120.66631677543543,
+        "elev_delta_m": -4.779999999999973,
         "grade_pct": -3.9613374533472605,
-        "recommended_speed_mph": 2.832239139282993,
+        "recommended_speed_mph": 2.873753416894774,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3955,8 +4119,9 @@
       "properties": {
         "segment_index": 164,
         "distance_m": 144.21484901321583,
+        "elev_delta_m": -4.789999999999964,
         "grade_pct": -3.3214332870542402,
-        "recommended_speed_mph": 2.8280022803961034,
+        "recommended_speed_mph": 2.869081936940316,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -3979,8 +4144,9 @@
       "properties": {
         "segment_index": 165,
         "distance_m": 156.44303341707067,
+        "elev_delta_m": -5.050000000000182,
         "grade_pct": -3.228012069119812,
-        "recommended_speed_mph": 2.8273333105231044,
+        "recommended_speed_mph": 2.86834951564504,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -4003,8 +4169,9 @@
       "properties": {
         "segment_index": 166,
         "distance_m": 156.3532376624422,
+        "elev_delta_m": -5.209999999999809,
         "grade_pct": -3.332198346444161,
-        "recommended_speed_mph": 2.828078541295967,
+        "recommended_speed_mph": 2.869165509437526,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -4027,8 +4194,9 @@
       "properties": {
         "segment_index": 167,
         "distance_m": 148.28233996307952,
+        "elev_delta_m": -5.220000000000027,
         "grade_pct": -3.5203113204847885,
-        "recommended_speed_mph": 2.8293836210019316,
+        "recommended_speed_mph": 2.870598354933913,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -4051,8 +4219,9 @@
       "properties": {
         "segment_index": 168,
         "distance_m": 148.18350006592846,
+        "elev_delta_m": -5.009999999999991,
         "grade_pct": -3.380943220919325,
-        "recommended_speed_mph": 2.8284217205916553,
+        "recommended_speed_mph": 2.86954179611163,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -4075,8 +4244,9 @@
       "properties": {
         "segment_index": 169,
         "distance_m": 148.26765585664194,
+        "elev_delta_m": -4.519999999999982,
         "grade_pct": -3.048540812144701,
-        "recommended_speed_mph": 2.8260121089465122,
+        "recommended_speed_mph": 2.866906417707378,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -4099,8 +4269,9 @@
       "properties": {
         "segment_index": 170,
         "distance_m": 118.32023352334936,
+        "elev_delta_m": -3.7100000000000364,
         "grade_pct": -3.1355583821324218,
-        "recommended_speed_mph": 2.826658621362889,
+        "recommended_speed_mph": 2.8676120322067815,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -4123,8 +4294,9 @@
       "properties": {
         "segment_index": 171,
         "distance_m": 117.67181212141647,
+        "elev_delta_m": -4.019999999999982,
         "grade_pct": -3.4162812040763457,
-        "recommended_speed_mph": 2.8286683243303212,
+        "recommended_speed_mph": 2.8698124013067243,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -4147,8 +4319,9 @@
       "properties": {
         "segment_index": 172,
         "distance_m": 143.1702322206616,
+        "elev_delta_m": -3.380000000000109,
         "grade_pct": -2.360825953533883,
-        "recommended_speed_mph": 2.820510486776099,
+        "recommended_speed_mph": 2.860937701584814,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -4171,8 +4344,9 @@
       "properties": {
         "segment_index": 173,
         "distance_m": 143.16989388303884,
+        "elev_delta_m": -0.6599999999998545,
         "grade_pct": -0.46099077264039506,
-        "recommended_speed_mph": 2.801694085967509,
+        "recommended_speed_mph": 2.8408309381906713,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4195,8 +4369,9 @@
       "properties": {
         "segment_index": 174,
         "distance_m": 89.81024707754585,
+        "elev_delta_m": 1.4399999999998272,
         "grade_pct": 1.6033805126451461,
-        "recommended_speed_mph": 2.64011990652543,
+        "recommended_speed_mph": 2.6778546437146096,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4219,8 +4394,9 @@
       "properties": {
         "segment_index": 175,
         "distance_m": 118.28916969862404,
+        "elev_delta_m": 2.660000000000082,
         "grade_pct": 2.24872657976821,
-        "recommended_speed_mph": 2.576179780198999,
+        "recommended_speed_mph": 2.6134762001972334,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4243,8 +4419,9 @@
       "properties": {
         "segment_index": 176,
         "distance_m": 143.64124719237813,
+        "elev_delta_m": 2.7899999999999636,
         "grade_pct": 1.9423390248507995,
-        "recommended_speed_mph": 2.6066127301947186,
+        "recommended_speed_mph": 2.644117247738214,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4267,8 +4444,9 @@
       "properties": {
         "segment_index": 177,
         "distance_m": 122.7046536217843,
+        "elev_delta_m": 4.400000000000091,
         "grade_pct": 3.5858460703229103,
-        "recommended_speed_mph": 2.4417486458875772,
+        "recommended_speed_mph": 2.4781368981771723,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4291,8 +4469,9 @@
       "properties": {
         "segment_index": 178,
         "distance_m": 118.11066955832612,
+        "elev_delta_m": 6.490000000000009,
         "grade_pct": 5.49484650647508,
-        "recommended_speed_mph": 2.245261110119608,
+        "recommended_speed_mph": 2.280352774808664,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4315,8 +4494,9 @@
       "properties": {
         "segment_index": 179,
         "distance_m": 138.01918942379237,
+        "elev_delta_m": 6.509999999999991,
         "grade_pct": 4.7167354243842325,
-        "recommended_speed_mph": 2.3259973130113543,
+        "recommended_speed_mph": 2.3616174685073137,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4339,8 +4519,9 @@
       "properties": {
         "segment_index": 180,
         "distance_m": 137.42522344035396,
+        "elev_delta_m": 6.029999999999973,
         "grade_pct": 4.3878407828219,
-        "recommended_speed_mph": 2.359855206793276,
+        "recommended_speed_mph": 2.3956987465829513,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4363,8 +4544,9 @@
       "properties": {
         "segment_index": 181,
         "distance_m": 123.52449557221425,
+        "elev_delta_m": 5.399999999999864,
         "grade_pct": 4.371602551368399,
-        "recommended_speed_mph": 2.361522718727228,
+        "recommended_speed_mph": 2.3973772874769597,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4387,8 +4569,9 @@
       "properties": {
         "segment_index": 182,
         "distance_m": 106.19845606662423,
+        "elev_delta_m": 4.830000000000155,
         "grade_pct": 4.548088718888743,
-        "recommended_speed_mph": 2.343378453352194,
+        "recommended_speed_mph": 2.3791131532050205,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4411,8 +4594,9 @@
       "properties": {
         "segment_index": 183,
         "distance_m": 105.55608889468982,
+        "elev_delta_m": 3.9199999999998454,
         "grade_pct": 3.713665446538771,
-        "recommended_speed_mph": 2.4287601498522955,
+        "recommended_speed_mph": 2.465061587589535,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4435,8 +4619,9 @@
       "properties": {
         "segment_index": 184,
         "distance_m": 132.2975486423536,
+        "elev_delta_m": 2.1800000000000637,
         "grade_pct": 1.647800750937089,
-        "recommended_speed_mph": 2.6357384473074066,
+        "recommended_speed_mph": 2.673443014398617,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4459,8 +4644,9 @@
       "properties": {
         "segment_index": 185,
         "distance_m": 132.2967075572125,
+        "elev_delta_m": 0.2699999999999818,
         "grade_pct": 0.20408671159349803,
-        "recommended_speed_mph": 2.776654625321864,
+        "recommended_speed_mph": 2.8153397588323825,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4483,8 +4669,9 @@
       "properties": {
         "segment_index": 186,
         "distance_m": 78.77249145001635,
+        "elev_delta_m": 0.12000000000011823,
         "grade_pct": 0.15233744393658294,
-        "recommended_speed_mph": 2.7816487447387708,
+        "recommended_speed_mph": 2.8203690262029046,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4507,8 +4694,9 @@
       "properties": {
         "segment_index": 187,
         "distance_m": 165.2648979449797,
+        "elev_delta_m": 0.8999999999998636,
         "grade_pct": 0.5445802533938533,
-        "recommended_speed_mph": 2.7436966315595432,
+        "recommended_speed_mph": 2.7821505028366955,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4531,8 +4719,9 @@
       "properties": {
         "segment_index": 188,
         "distance_m": 89.1783311685933,
+        "elev_delta_m": 0.7699999999999818,
         "grade_pct": 0.8634384495761448,
-        "recommended_speed_mph": 2.712678095199812,
+        "recommended_speed_mph": 2.7509153989080577,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4555,8 +4744,9 @@
       "properties": {
         "segment_index": 189,
         "distance_m": 121.74474970781657,
+        "elev_delta_m": 0.4500000000000455,
         "grade_pct": 0.36962579583927097,
-        "recommended_speed_mph": 2.7606526230052784,
+        "recommended_speed_mph": 2.799225322846337,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4579,8 +4769,9 @@
       "properties": {
         "segment_index": 190,
         "distance_m": 95.05664399749298,
+        "elev_delta_m": 0.2400000000000091,
         "grade_pct": 0.2524810364716209,
-        "recommended_speed_mph": 2.7719807115014343,
+        "recommended_speed_mph": 2.8106329757258153,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4603,8 +4794,9 @@
       "properties": {
         "segment_index": 191,
         "distance_m": 87.19064616747596,
+        "elev_delta_m": 0.5599999999999454,
         "grade_pct": 0.6422707304225,
-        "recommended_speed_mph": 2.7342092000049956,
+        "recommended_speed_mph": 2.7725967201913853,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4627,8 +4819,9 @@
       "properties": {
         "segment_index": 192,
         "distance_m": 144.84028456487695,
+        "elev_delta_m": 1.509999999999991,
         "grade_pct": 1.042527639693797,
-        "recommended_speed_mph": 2.6951906606704092,
+        "recommended_speed_mph": 2.733306327516295,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4651,8 +4844,9 @@
       "properties": {
         "segment_index": 193,
         "distance_m": 128.8727162204783,
+        "elev_delta_m": 1.9100000000000819,
         "grade_pct": 1.4820825198814087,
-        "recommended_speed_mph": 2.65206952847929,
+        "recommended_speed_mph": 2.689886650915958,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4675,8 +4869,9 @@
       "properties": {
         "segment_index": 194,
         "distance_m": 132.27143275787512,
+        "elev_delta_m": 1.099999999999909,
         "grade_pct": 0.8316232591306967,
-        "recommended_speed_mph": 2.715779799179996,
+        "recommended_speed_mph": 2.7540387116740015,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4699,8 +4894,9 @@
       "properties": {
         "segment_index": 195,
         "distance_m": 132.6464483739276,
+        "elev_delta_m": 1.1700000000000728,
         "grade_pct": 0.8820439705267245,
-        "recommended_speed_mph": 2.7108635285287956,
+        "recommended_speed_mph": 2.749088195420774,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -4723,8 +4919,9 @@
       "properties": {
         "segment_index": 196,
         "distance_m": 111.29126871075451,
+        "elev_delta_m": 3.6400000000001,
         "grade_pct": 3.2706968319863825,
-        "recommended_speed_mph": 2.473670113746647,
+        "recommended_speed_mph": 2.510272414491658,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4747,8 +4944,9 @@
       "properties": {
         "segment_index": 197,
         "distance_m": 125.613071596393,
+        "elev_delta_m": 7.740000000000009,
         "grade_pct": 6.161779105975039,
-        "recommended_speed_mph": 2.1753514082317515,
+        "recommended_speed_mph": 2.209990094219216,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4771,8 +4969,9 @@
       "properties": {
         "segment_index": 198,
         "distance_m": 112.65665702201377,
+        "elev_delta_m": 11.61999999999989,
         "grade_pct": 10.314525840873543,
-        "recommended_speed_mph": 1.7253186762343864,
+        "recommended_speed_mph": 1.7571368285945774,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4795,8 +4994,9 @@
       "properties": {
         "segment_index": 199,
         "distance_m": 84.10689945951727,
+        "elev_delta_m": 12.620000000000118,
         "grade_pct": 15.004714335087858,
-        "recommended_speed_mph": 1.1865189056731575,
+        "recommended_speed_mph": 1.215151495510354,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4819,8 +5019,9 @@
       "properties": {
         "segment_index": 200,
         "distance_m": 196.98898147716554,
+        "elev_delta_m": 10.849999999999909,
         "grade_pct": 5.507922280037583,
-        "recommended_speed_mph": 2.243896764060565,
+        "recommended_speed_mph": 2.278979547721861,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4843,8 +5044,9 @@
       "properties": {
         "segment_index": 201,
         "distance_m": 187.19996089839762,
+        "elev_delta_m": 8.779999999999973,
         "grade_pct": 4.690171919835656,
-        "recommended_speed_mph": 2.3287377902386925,
+        "recommended_speed_mph": 2.3643759875904697,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4867,8 +5069,9 @@
       "properties": {
         "segment_index": 202,
         "distance_m": 134.0669489745286,
+        "elev_delta_m": 7.279999999999973,
         "grade_pct": 5.4301228272026245,
-        "recommended_speed_mph": 2.2520107710773067,
+        "recommended_speed_mph": 2.2871463959029965,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4891,8 +5094,9 @@
       "properties": {
         "segment_index": 203,
         "distance_m": 133.96051956258552,
+        "elev_delta_m": 6.2000000000000455,
         "grade_pct": 4.628229287438263,
-        "recommended_speed_mph": 2.335124191322791,
+        "recommended_speed_mph": 2.3708044599321694,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4915,8 +5119,9 @@
       "properties": {
         "segment_index": 204,
         "distance_m": 87.20571854383024,
+        "elev_delta_m": 7.019999999999982,
         "grade_pct": 8.049930804103951,
-        "recommended_speed_mph": 1.9738795538887421,
+        "recommended_speed_mph": 2.0072358126785135,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4939,8 +5144,9 @@
       "properties": {
         "segment_index": 205,
         "distance_m": 78.17269194991826,
+        "elev_delta_m": 8.990000000000009,
         "grade_pct": 11.500179635312417,
-        "recommended_speed_mph": 1.5921711564287457,
+        "recommended_speed_mph": 1.6231840161450548,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4963,8 +5169,9 @@
       "properties": {
         "segment_index": 206,
         "distance_m": 131.12838668644898,
+        "elev_delta_m": 5.430000000000064,
         "grade_pct": 4.140979796376317,
-        "recommended_speed_mph": 2.385163582014851,
+        "recommended_speed_mph": 2.4211747890758484,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -4987,8 +5194,9 @@
       "properties": {
         "segment_index": 207,
         "distance_m": 57.57207850849035,
+        "elev_delta_m": 0.7300000000000182,
         "grade_pct": 1.2679757599725405,
-        "recommended_speed_mph": 2.673109315970899,
+        "recommended_speed_mph": 2.7110718591025194,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5011,8 +5219,9 @@
       "properties": {
         "segment_index": 208,
         "distance_m": 70.86575444354165,
+        "elev_delta_m": -0.5900000000001455,
         "grade_pct": -0.8325601055587368,
-        "recommended_speed_mph": 2.8057921209386905,
+        "recommended_speed_mph": 2.8451813419830847,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5035,8 +5244,9 @@
       "properties": {
         "segment_index": 209,
         "distance_m": 42.498600531906305,
+        "elev_delta_m": -2.5,
         "grade_pct": -5.882546645560945,
-        "recommended_speed_mph": 2.8413383155760323,
+        "recommended_speed_mph": 2.8841574729403217,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5059,8 +5269,9 @@
       "properties": {
         "segment_index": 210,
         "distance_m": 86.6156018798715,
+        "elev_delta_m": -4.569999999999936,
         "grade_pct": -5.276185699590403,
-        "recommended_speed_mph": 2.839053257757823,
+        "recommended_speed_mph": 2.8814605765132217,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5083,8 +5294,9 @@
       "properties": {
         "segment_index": 211,
         "distance_m": 59.992546853822894,
+        "elev_delta_m": -5.730000000000018,
         "grade_pct": -9.551186439811708,
-        "recommended_speed_mph": 2.84362090672636,
+        "recommended_speed_mph": 2.888931793677498,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5107,8 +5319,9 @@
       "properties": {
         "segment_index": 212,
         "distance_m": 58.194270053737434,
+        "elev_delta_m": -5.710000000000036,
         "grade_pct": -9.811962577634086,
-        "recommended_speed_mph": 2.8430290083935366,
+        "recommended_speed_mph": 2.8885170137467524,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5131,8 +5344,9 @@
       "properties": {
         "segment_index": 213,
         "distance_m": 52.75815274698006,
+        "elev_delta_m": -4.019999999999982,
         "grade_pct": -7.619675425861249,
-        "recommended_speed_mph": 2.8448885399157122,
+        "recommended_speed_mph": 2.8888875501466753,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5155,8 +5369,9 @@
       "properties": {
         "segment_index": 214,
         "distance_m": 72.92017451575151,
+        "elev_delta_m": -1.4299999999998363,
         "grade_pct": -1.9610485157176105,
-        "recommended_speed_mph": 2.8169923553520797,
+        "recommended_speed_mph": 2.857148042475923,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5179,8 +5394,9 @@
       "properties": {
         "segment_index": 215,
         "distance_m": 88.12799828514963,
+        "elev_delta_m": -0.03000000000020009,
         "grade_pct": -0.03404139499813802,
-        "recommended_speed_mph": 2.7967343516268115,
+        "recommended_speed_mph": 2.835581221061796,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5203,8 +5419,9 @@
       "properties": {
         "segment_index": 216,
         "distance_m": 37.332473536562,
+        "elev_delta_m": 0.8600000000001273,
         "grade_pct": 2.3036244816670832,
-        "recommended_speed_mph": 2.570712268657371,
+        "recommended_speed_mph": 2.6079714021586775,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5227,8 +5444,9 @@
       "properties": {
         "segment_index": 217,
         "distance_m": 44.588862946063166,
+        "elev_delta_m": 2.230000000000018,
         "grade_pct": 5.001248860500286,
-        "recommended_speed_mph": 2.2965797759368622,
+        "recommended_speed_mph": 2.332006690726079,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -5251,8 +5469,9 @@
       "properties": {
         "segment_index": 218,
         "distance_m": 101.64916215805042,
+        "elev_delta_m": 3.369999999999891,
         "grade_pct": 3.3153249160676856,
-        "recommended_speed_mph": 2.469158620189088,
+        "recommended_speed_mph": 2.5057306096678675,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -5275,8 +5494,9 @@
       "properties": {
         "segment_index": 219,
         "distance_m": 101.74732753852241,
+        "elev_delta_m": 3.4300000000000637,
         "grade_pct": 3.371095912766295,
-        "recommended_speed_mph": 2.463516558494419,
+        "recommended_speed_mph": 2.500050668472796,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -5299,8 +5519,9 @@
       "properties": {
         "segment_index": 220,
         "distance_m": 43.60818489891764,
+        "elev_delta_m": 2.4500000000000455,
         "grade_pct": 5.618211364859753,
-        "recommended_speed_mph": 2.2323790200526927,
+        "recommended_speed_mph": 2.267386895685081,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -5323,8 +5544,9 @@
       "properties": {
         "segment_index": 221,
         "distance_m": 38.78050936604621,
+        "elev_delta_m": 1.2100000000000364,
         "grade_pct": 3.120124051437645,
-        "recommended_speed_mph": 2.4888700212138652,
+        "recommended_speed_mph": 2.5255745905579507,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -5347,8 +5569,9 @@
       "properties": {
         "segment_index": 222,
         "distance_m": 63.171113962516834,
+        "elev_delta_m": 0.5299999999999727,
         "grade_pct": 0.8389910621402895,
-        "recommended_speed_mph": 2.715061635121189,
+        "recommended_speed_mph": 2.753315543424601,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5371,8 +5594,9 @@
       "properties": {
         "segment_index": 223,
         "distance_m": 53.69552926601304,
+        "elev_delta_m": 0.6399999999998727,
         "grade_pct": 1.191905562247554,
-        "recommended_speed_mph": 2.6805683166613794,
+        "recommended_speed_mph": 2.718582526452301,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5395,8 +5619,9 @@
       "properties": {
         "segment_index": 224,
         "distance_m": 124.68210211679293,
+        "elev_delta_m": 1.5,
         "grade_pct": 1.2030596008037397,
-        "recommended_speed_mph": 2.6794751494838094,
+        "recommended_speed_mph": 2.717481783483854,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5419,8 +5644,9 @@
       "properties": {
         "segment_index": 225,
         "distance_m": 142.1922016101107,
+        "elev_delta_m": 2.769999999999982,
         "grade_pct": 1.9480674528096054,
-        "recommended_speed_mph": 2.6060450028473716,
+        "recommended_speed_mph": 2.643545629659088,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5443,8 +5669,9 @@
       "properties": {
         "segment_index": 226,
         "distance_m": 35.0203401881252,
+        "elev_delta_m": 3.380000000000109,
         "grade_pct": 9.65153388528821,
-        "recommended_speed_mph": 1.7988698525506308,
+        "recommended_speed_mph": 1.8311383071384115,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -5467,8 +5694,9 @@
       "properties": {
         "segment_index": 227,
         "distance_m": 186.10500366798664,
+        "elev_delta_m": 2.349999999999909,
         "grade_pct": 1.2627280049881597,
-        "recommended_speed_mph": 2.673624153802113,
+        "recommended_speed_mph": 2.711590261193811,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5491,8 +5719,9 @@
       "properties": {
         "segment_index": 228,
         "distance_m": 107.2131791346103,
+        "elev_delta_m": 0.4600000000000364,
         "grade_pct": 0.42905173012590975,
-        "recommended_speed_mph": 2.7548983161588567,
+        "recommended_speed_mph": 2.7934306540764253,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5515,8 +5744,9 @@
       "properties": {
         "segment_index": 229,
         "distance_m": 121.61890484439425,
+        "elev_delta_m": -1.0299999999999727,
         "grade_pct": -0.8469078070698055,
-        "recommended_speed_mph": 2.8059462865124987,
+        "recommended_speed_mph": 2.8453452524744547,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5539,8 +5769,9 @@
       "properties": {
         "segment_index": 230,
         "distance_m": 64.06624310267247,
+        "elev_delta_m": -1.8299999999999272,
         "grade_pct": -2.856418468408038,
-        "recommended_speed_mph": 2.824545232495673,
+        "recommended_speed_mph": 2.865309052313762,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5563,8 +5794,9 @@
       "properties": {
         "segment_index": 231,
         "distance_m": 53.801344296259295,
+        "elev_delta_m": -2.5299999999999727,
         "grade_pct": -4.702484729876683,
-        "recommended_speed_mph": 2.836393022223473,
+        "recommended_speed_mph": 2.8784106849318327,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5587,8 +5819,9 @@
       "properties": {
         "segment_index": 232,
         "distance_m": 80.02312912850468,
+        "elev_delta_m": -3.9600000000000364,
         "grade_pct": -4.948569298809715,
-        "recommended_speed_mph": 2.837593444747103,
+        "recommended_speed_mph": 2.8797782473862448,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5611,8 +5844,9 @@
       "properties": {
         "segment_index": 233,
         "distance_m": 157.16654229136793,
+        "elev_delta_m": -6.070000000000164,
         "grade_pct": -3.8621451560263447,
-        "recommended_speed_mph": 2.8316218523476535,
+        "recommended_speed_mph": 2.873068758836652,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5635,8 +5869,9 @@
       "properties": {
         "segment_index": 234,
         "distance_m": 138.622116596968,
+        "elev_delta_m": -7.559999999999945,
         "grade_pct": -5.453675203921464,
-        "recommended_speed_mph": 2.8397781454760938,
+        "recommended_speed_mph": 2.8823060145918715,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5659,8 +5894,9 @@
       "properties": {
         "segment_index": 235,
         "distance_m": 107.22745713812239,
+        "elev_delta_m": -6.990000000000009,
         "grade_pct": -6.518852714184963,
-        "recommended_speed_mph": 2.8431542743816256,
+        "recommended_speed_mph": 2.8864056089959047,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5683,8 +5919,9 @@
       "properties": {
         "segment_index": 236,
         "distance_m": 95.75988807492845,
+        "elev_delta_m": -4.809999999999945,
         "grade_pct": -5.022979972821505,
-        "recommended_speed_mph": 2.8379388749703054,
+        "recommended_speed_mph": 2.8801742171250204,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5707,8 +5944,9 @@
       "properties": {
         "segment_index": 237,
         "distance_m": 52.52459213808059,
+        "elev_delta_m": -3.019999999999982,
         "grade_pct": -5.749687674034249,
-        "recommended_speed_mph": 2.8408839388341582,
+        "recommended_speed_mph": 2.8836128587674654,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5731,8 +5969,9 @@
       "properties": {
         "segment_index": 238,
         "distance_m": 56.90240992968127,
+        "elev_delta_m": -2.240000000000009,
         "grade_pct": -3.936564378851706,
-        "recommended_speed_mph": 2.8320863299622845,
+        "recommended_speed_mph": 2.8735837817731857,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -5755,8 +5994,9 @@
       "properties": {
         "segment_index": 239,
         "distance_m": 109.62099438235352,
+        "elev_delta_m": -1.8099999999999454,
         "grade_pct": -1.6511435698956898,
-        "recommended_speed_mph": 2.8141032563982566,
+        "recommended_speed_mph": 2.8540484569750624,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5779,8 +6019,9 @@
       "properties": {
         "segment_index": 240,
         "distance_m": 112.05634465017542,
+        "elev_delta_m": -1.3099999999999454,
         "grade_pct": -1.1690547323220173,
-        "recommended_speed_mph": 2.80932796440658,
+        "recommended_speed_mph": 2.8489457316327598,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5803,8 +6044,9 @@
       "properties": {
         "segment_index": 241,
         "distance_m": 119.35547860006542,
+        "elev_delta_m": -0.3500000000001364,
         "grade_pct": -0.29324167110326893,
-        "recommended_speed_mph": 2.79977739890246,
+        "recommended_speed_mph": 2.838800316418781,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5827,8 +6069,9 @@
       "properties": {
         "segment_index": 242,
         "distance_m": 136.82504694353534,
+        "elev_delta_m": 0.30999999999994543,
         "grade_pct": 0.22656670465304174,
-        "recommended_speed_mph": 2.774483941017173,
+        "recommended_speed_mph": 2.813153806181122,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5851,8 +6094,9 @@
       "properties": {
         "segment_index": 243,
         "distance_m": 90.99122960650183,
+        "elev_delta_m": 0.2799999999999727,
         "grade_pct": 0.30772196530462664,
-        "recommended_speed_mph": 2.766641340715462,
+        "recommended_speed_mph": 2.805256085460009,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5875,8 +6119,9 @@
       "properties": {
         "segment_index": 244,
         "distance_m": 163.45271666833406,
+        "elev_delta_m": 0.39000000000010004,
         "grade_pct": 0.2386011122662823,
-        "recommended_speed_mph": 2.773321584264732,
+        "recommended_speed_mph": 2.8119832756936747,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5899,8 +6144,9 @@
       "properties": {
         "segment_index": 245,
         "distance_m": 115.76456358258206,
+        "elev_delta_m": 0.7300000000000182,
         "grade_pct": 0.6305902060255805,
-        "recommended_speed_mph": 2.7353443199309866,
+        "recommended_speed_mph": 2.77373977349592,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5923,8 +6169,9 @@
       "properties": {
         "segment_index": 246,
         "distance_m": 142.31716936757167,
+        "elev_delta_m": 1.2300000000000182,
         "grade_pct": 0.8642667679984686,
-        "recommended_speed_mph": 2.7125973214675616,
+        "recommended_speed_mph": 2.7508340625843197,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5947,8 +6194,9 @@
       "properties": {
         "segment_index": 247,
         "distance_m": 142.8413975545896,
+        "elev_delta_m": 1.7100000000000364,
         "grade_pct": 1.1971319444326542,
-        "recommended_speed_mph": 2.6800561205528095,
+        "recommended_speed_mph": 2.718066780599997,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5971,8 +6219,9 @@
       "properties": {
         "segment_index": 248,
         "distance_m": 162.05093364147427,
+        "elev_delta_m": 2.0299999999999727,
         "grade_pct": 1.2526925667032551,
-        "recommended_speed_mph": 2.6746085806544584,
+        "recommended_speed_mph": 2.712581504086949,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -5995,8 +6244,9 @@
       "properties": {
         "segment_index": 249,
         "distance_m": 161.565501421814,
+        "elev_delta_m": 2.099999999999909,
         "grade_pct": 1.2997824297386635,
-        "recommended_speed_mph": 2.669988013843865,
+        "recommended_speed_mph": 2.707928953976946,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6019,8 +6269,9 @@
       "properties": {
         "segment_index": 250,
         "distance_m": 135.39599415203563,
+        "elev_delta_m": 2.009999999999991,
         "grade_pct": 1.4845343191933507,
-        "recommended_speed_mph": 2.6518282049299104,
+        "recommended_speed_mph": 2.689643662111544,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6043,8 +6294,9 @@
       "properties": {
         "segment_index": 251,
         "distance_m": 80.28546961878865,
+        "elev_delta_m": 1.9300000000000637,
         "grade_pct": 2.4039219165860106,
-        "recommended_speed_mph": 2.5607117718965187,
+        "recommended_speed_mph": 2.597902783668768,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6067,8 +6319,9 @@
       "properties": {
         "segment_index": 252,
         "distance_m": 157.504434126,
+        "elev_delta_m": 1.900000000000091,
         "grade_pct": 1.2063152447378933,
-        "recommended_speed_mph": 2.679156041011703,
+        "recommended_speed_mph": 2.71716046378776,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6091,8 +6344,9 @@
       "properties": {
         "segment_index": 253,
         "distance_m": 69.88292594281312,
+        "elev_delta_m": 1.759999999999991,
         "grade_pct": 2.5184978680489727,
-        "recommended_speed_mph": 2.5492694679240633,
+        "recommended_speed_mph": 2.586382660039924,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6115,8 +6369,9 @@
       "properties": {
         "segment_index": 254,
         "distance_m": 67.48055217398439,
+        "elev_delta_m": 1.3099999999999454,
         "grade_pct": 1.9413000602342232,
-        "recommended_speed_mph": 2.606715693693109,
+        "recommended_speed_mph": 2.6442209168983806,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6139,8 +6394,9 @@
       "properties": {
         "segment_index": 255,
         "distance_m": 63.89657888223304,
+        "elev_delta_m": 0.8199999999999363,
         "grade_pct": 1.2833237934557775,
-        "recommended_speed_mph": 2.671603344530057,
+        "recommended_speed_mph": 2.70955546332152,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6163,8 +6419,9 @@
       "properties": {
         "segment_index": 256,
         "distance_m": 44.29232254522357,
+        "elev_delta_m": 0.5299999999999727,
         "grade_pct": 1.1965956390271235,
-        "recommended_speed_mph": 2.6801086814270607,
+        "recommended_speed_mph": 2.7181197057313353,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6187,8 +6444,9 @@
       "properties": {
         "segment_index": 257,
         "distance_m": 114.30764577464353,
+        "elev_delta_m": 0.5900000000001455,
         "grade_pct": 0.516150950360158,
-        "recommended_speed_mph": 2.74645496877064,
+        "recommended_speed_mph": 2.78492814914857,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6211,8 +6469,9 @@
       "properties": {
         "segment_index": 258,
         "distance_m": 114.71247195719714,
+        "elev_delta_m": 0.9299999999998363,
         "grade_pct": 0.8107226565101384,
-        "recommended_speed_mph": 2.7178166150159937,
+        "recommended_speed_mph": 2.7560897231391297,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6235,8 +6494,9 @@
       "properties": {
         "segment_index": 259,
         "distance_m": 126.66721757273575,
+        "elev_delta_m": 1.4400000000000546,
         "grade_pct": 1.136837160864584,
-        "recommended_speed_mph": 2.6859626885778365,
+        "recommended_speed_mph": 2.7240143006684447,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6259,8 +6519,9 @@
       "properties": {
         "segment_index": 260,
         "distance_m": 151.00959465623512,
+        "elev_delta_m": 3.910000000000082,
         "grade_pct": 2.5892394512421397,
-        "recommended_speed_mph": 2.5421951023334755,
+        "recommended_speed_mph": 2.579260246969685,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6283,8 +6544,9 @@
       "properties": {
         "segment_index": 261,
         "distance_m": 190.89630469706515,
+        "elev_delta_m": 6.319999999999936,
         "grade_pct": 3.3106979257818505,
-        "recommended_speed_mph": 2.4696265030574347,
+        "recommended_speed_mph": 2.5062016351746963,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6307,8 +6569,9 @@
       "properties": {
         "segment_index": 262,
         "distance_m": 182.42999844868206,
+        "elev_delta_m": 6.960000000000036,
         "grade_pct": 3.8151620123802714,
-        "recommended_speed_mph": 2.4184293433650668,
+        "recommended_speed_mph": 2.454661844926979,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6331,8 +6594,9 @@
       "properties": {
         "segment_index": 263,
         "distance_m": 88.11535858919783,
+        "elev_delta_m": 7.389999999999873,
         "grade_pct": 8.386733162436249,
-        "recommended_speed_mph": 1.9373901434390233,
+        "recommended_speed_mph": 1.9705176470366133,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6355,8 +6619,9 @@
       "properties": {
         "segment_index": 264,
         "distance_m": 86.03860891220909,
+        "elev_delta_m": 7.009999999999991,
         "grade_pct": 8.14750504294271,
-        "recommended_speed_mph": 1.9633254699349165,
+        "recommended_speed_mph": 1.9966154565825684,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6379,8 +6644,9 @@
       "properties": {
         "segment_index": 265,
         "distance_m": 94.10812777699937,
+        "elev_delta_m": 6.0900000000001455,
         "grade_pct": 6.471279520543794,
-        "recommended_speed_mph": 2.1426863110576444,
+        "recommended_speed_mph": 2.177114785254534,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6403,8 +6669,9 @@
       "properties": {
         "segment_index": 266,
         "distance_m": 71.45565338068506,
+        "elev_delta_m": 4.3599999999999,
         "grade_pct": 6.101686561833939,
-        "recommended_speed_mph": 2.1816773117381962,
+        "recommended_speed_mph": 2.216356812408645,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6427,8 +6694,9 @@
       "properties": {
         "segment_index": 267,
         "distance_m": 130.4123662613654,
+        "elev_delta_m": 2.560000000000173,
         "grade_pct": 1.9630040259138917,
-        "recommended_speed_mph": 2.6045644566298094,
+        "recommended_speed_mph": 2.6420549385640735,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6451,8 +6719,9 @@
       "properties": {
         "segment_index": 268,
         "distance_m": 87.82333853624486,
+        "elev_delta_m": 1.6499999999998636,
         "grade_pct": 1.8787716653687736,
-        "recommended_speed_mph": 2.6129094589812745,
+        "recommended_speed_mph": 2.65045715129233,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6475,8 +6744,9 @@
       "properties": {
         "segment_index": 269,
         "distance_m": 102.30206563016108,
+        "elev_delta_m": -1.3199999999999363,
         "grade_pct": -1.290296527121901,
-        "recommended_speed_mph": 2.8105611138571476,
+        "recommended_speed_mph": 2.85026122816132,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6499,8 +6769,9 @@
       "properties": {
         "segment_index": 270,
         "distance_m": 103.57533687922253,
+        "elev_delta_m": -5.029999999999973,
         "grade_pct": -4.856368467201194,
-        "recommended_speed_mph": 2.837154122996571,
+        "recommended_speed_mph": 2.879276303096315,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -6523,8 +6794,9 @@
       "properties": {
         "segment_index": 271,
         "distance_m": 181.26451181638092,
+        "elev_delta_m": -5.2999999999999545,
         "grade_pct": -2.9239038281077323,
-        "recommended_speed_mph": 2.8250666814705827,
+        "recommended_speed_mph": 2.8658763371507,
         "zone": "speed-up",
         "zone_color": "#1a9850"
       }
@@ -6547,8 +6819,9 @@
       "properties": {
         "segment_index": 272,
         "distance_m": 111.67653852979842,
+        "elev_delta_m": -0.38000000000010914,
         "grade_pct": -0.34026842611952424,
-        "recommended_speed_mph": 2.800318900888085,
+        "recommended_speed_mph": 2.8393737588410306,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6571,8 +6844,9 @@
       "properties": {
         "segment_index": 273,
         "distance_m": 99.84719124679262,
+        "elev_delta_m": 3.8599999999999,
         "grade_pct": 3.865907444966705,
-        "recommended_speed_mph": 2.413258544414444,
+        "recommended_speed_mph": 2.4494565798246315,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6595,8 +6869,9 @@
       "properties": {
         "segment_index": 274,
         "distance_m": 136.1745690773188,
+        "elev_delta_m": 3.9600000000000364,
         "grade_pct": 2.9080319672255257,
-        "recommended_speed_mph": 2.510223523064903,
+        "recommended_speed_mph": 2.547072144742007,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6619,8 +6894,9 @@
       "properties": {
         "segment_index": 275,
         "distance_m": 163.80732731344455,
+        "elev_delta_m": 3.7200000000000273,
         "grade_pct": 2.2709606835119316,
-        "recommended_speed_mph": 2.5739659273622593,
+        "recommended_speed_mph": 2.611247246021239,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6643,8 +6919,9 @@
       "properties": {
         "segment_index": 276,
         "distance_m": 137.89585376591486,
+        "elev_delta_m": 3.400000000000091,
         "grade_pct": 2.465628883789183,
-        "recommended_speed_mph": 2.5545517115457277,
+        "recommended_speed_mph": 2.591700812123497,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6667,8 +6944,9 @@
       "properties": {
         "segment_index": 277,
         "distance_m": 28.07037497723798,
+        "elev_delta_m": 3.259999999999991,
         "grade_pct": 11.613667443500475,
-        "recommended_speed_mph": 1.5793181001503256,
+        "recommended_speed_mph": 1.6102538792740257,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6691,8 +6969,9 @@
       "properties": {
         "segment_index": 278,
         "distance_m": 50.397395437042604,
+        "elev_delta_m": 1.75,
         "grade_pct": 3.472401668427753,
-        "recommended_speed_mph": 2.4532562706565506,
+        "recommended_speed_mph": 2.489721574057325,
         "zone": "slowdown",
         "zone_color": "#d73027"
       }
@@ -6715,8 +6994,9 @@
       "properties": {
         "segment_index": 279,
         "distance_m": 12.684118275058026,
+        "elev_delta_m": 0.16999999999984539,
         "grade_pct": 1.3402587102497487,
-        "recommended_speed_mph": 2.6660137785728297,
+        "recommended_speed_mph": 2.7039272273327124,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6739,8 +7019,9 @@
       "properties": {
         "segment_index": 280,
         "distance_m": 148.86940602444136,
+        "elev_delta_m": -0.1999999999998181,
         "grade_pct": -0.13434593805458062,
-        "recommended_speed_mph": 2.797923670827962,
+        "recommended_speed_mph": 2.8368386668198307,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
@@ -6763,8 +7044,9 @@
       "properties": {
         "segment_index": 281,
         "distance_m": 149.0922802868008,
+        "elev_delta_m": -0.3300000000001546,
         "grade_pct": -0.2213394277459245,
-        "recommended_speed_mph": 2.798943168035998,
+        "recommended_speed_mph": 2.837917249755625,
         "zone": "steady",
         "zone_color": "#fdae61"
       }
