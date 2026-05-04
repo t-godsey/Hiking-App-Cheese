@@ -47,7 +47,8 @@
       padding: 9px 10px;
       font-size: 0.95rem;
     }
-    button {
+    button,
+    .btn {
       border: 0;
       border-radius: 6px;
       padding: 10px 14px;
@@ -55,6 +56,30 @@
       color: #fff;
       background: #2069d1;
       cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    button.secondary,
+    .btn.secondary {
+      background: #fff;
+      color: #2069d1;
+      border: 2px solid #2069d1;
+    }
+    .map-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .map-actions .hint {
+      font-size: 0.85rem;
+      color: #5a6478;
+      flex: 1 1 200px;
+      margin: 0;
     }
     .error {
       background: #fdebec;
@@ -117,8 +142,42 @@
 
     {% if map_url %}
     <div class="card">
-      <iframe class="map-frame" src="{{ map_url }}" title="Pace map"></iframe>
+      <div class="map-actions">
+        {% if pdf_download_url %}
+        <a class="btn" href="{{ pdf_download_url }}" download>Download PDF</a>
+        {% endif %}
+        <button type="button" class="btn secondary" id="print-map-btn">Save as PDF (print)</button>
+        <p class="hint">
+          {% if pdf_download_url %}
+          “Download PDF” builds a PDF on the server. If that fails, use “Save as PDF (print)” and choose <em>Save as PDF</em> in the print dialog.
+          {% else %}
+          Use “Save as PDF (print)” and choose <em>Save as PDF</em> in your browser’s print dialog.
+          {% endif %}
+        </p>
+      </div>
+      <iframe
+        id="pace-map-iframe"
+        class="map-frame"
+        src="{{ map_url }}"
+        title="Pace map"
+      ></iframe>
     </div>
+    <script>
+      (function () {
+        var btn = document.getElementById("print-map-btn");
+        var frame = document.getElementById("pace-map-iframe");
+        if (!btn || !frame) return;
+        btn.addEventListener("click", function () {
+          try {
+            var win = frame.contentWindow;
+            if (win) {
+              win.focus();
+              win.print();
+            }
+          } catch (e) {}
+        });
+      })();
+    </script>
     {% endif %}
   </div>
 </body>

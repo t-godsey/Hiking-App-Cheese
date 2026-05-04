@@ -1,4 +1,10 @@
-"""Writers for CSV, GeoJSON, and map HTML artifacts."""
+"""
+CSV / GeoJSON / HTML exporters for optimizer results.
+
+The HTML map is a self-contained Leaflet page that fetches the GeoJSON by *filename* from the
+same directory (works for `file://` opens and for `/artifacts/...` URLs on the web app).
+Python f-strings drive the template: literal `{` / `}` in embedded JS/CSS must be doubled as `{{` / `}}`.
+"""
 
 from __future__ import annotations
 
@@ -6,9 +12,15 @@ import csv
 import json
 from pathlib import Path
 
+# ---------------------------------------------------------------------------
+# CSV — tabular export (one row per trail segment)
+# ---------------------------------------------------------------------------
+
 
 def write_csv(output_csv: Path, rows: list[dict[str, float | str]]) -> None:
+    """Per-segment spreadsheet (speed, zone, geometry, along-trail distances)."""
     output_csv.parent.mkdir(parents=True, exist_ok=True)
+    # newline="" avoids Windows-only "\r\r\n" quirks when spreadsheets reopen the CSV.
     with output_csv.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
@@ -32,7 +44,14 @@ def write_csv(output_csv: Path, rows: list[dict[str, float | str]]) -> None:
         writer.writerows(rows)
 
 
+# ---------------------------------------------------------------------------
+# GeoJSON — RFC 7946 features (Leaflet uses [longitude, latitude] vertex order)
+# ---------------------------------------------------------------------------
+
+
 def write_geojson(output_geojson: Path, rows: list[dict[str, float | str]]) -> None:
+    """One two-point LineString per segment; styling keys live in ``properties`` for the map script."""
+
     output_geojson.parent.mkdir(parents=True, exist_ok=True)
     features = []
     for row in rows:
@@ -41,6 +60,7 @@ def write_geojson(output_geojson: Path, rows: list[dict[str, float | str]]) -> N
                 "type": "Feature",
                 "geometry": {
                     "type": "LineString",
+                    # GeoJSON positions are [lon, lat]; GPX rows store lat/lon separately.
                     "coordinates": [
                         [row["start_lon"], row["start_lat"]],
                         [row["end_lon"], row["end_lat"]],
@@ -62,7 +82,72 @@ def write_geojson(output_geojson: Path, rows: list[dict[str, float | str]]) -> N
         json.dump({"type": "FeatureCollection", "features": features}, f, indent=2)
 
 
-def write_html_map(output_html: Path, geojson_filename: str, title: str) -> None:
+# ---------------------------------------------------------------------------
+# Map legend helpers (HTML fragments injected into Leaflet DOM)
+# ---------------------------------------------------------------------------
+
+
+def pace_zone_mph_ranges(segment_rows: list[dict[str, float | str]]) -> dict[str, tuple[float, float]]:
+    """Min/max recommended speed per zone label (slowdown | steady | speed-up) after refinement."""
+    buckets: dict[str, list[float]] = {}
+    for row in segment_rows:
+        key = str(row["zone"])
+        buckets.setdefault(key, []).append(float(row["recommended_speed_mph"]))
+    # Ranges summarize "what mph values appear in this zone on this hike"; zones can overlap in mph across labels.
+    return {z: (min(values), max(values)) for z, values in buckets.items() if values}
+
+
+def _legend_speed_zone_html(label: str, color: str, zone_key: str, ranges: dict[str, tuple[float, float]]) -> str:
+    """One legend row: color swatch, name, and (min–max mph) for segments in that zone."""
+    pair = ranges.get(zone_key)
+    if pair:
+        lo, hi = pair
+        # Collapse degenerate buckets so the legend reads "2.9 mph" instead of a trivial range.
+        if abs(hi - lo) < 0.002:
+            span = f"{lo:.1f} mph"
+        else:
+            span = f"{lo:.1f}–{hi:.1f} mph"
+        suffix = f' <span style="font-weight:600;color:#333;">({span})</span>'
+    else:
+        suffix = ""
+    return f'<div><span class="swatch" style="background:{color}"></span>{label}{suffix}</div>'
+
+
+# ---------------------------------------------------------------------------
+# HTML / Leaflet viewer (same folder as sibling GeoJSON is required for relative fetch())
+# ---------------------------------------------------------------------------
+
+
+def write_html_map(
+    output_html: Path,
+    geojson_filename: str,
+    title: str,
+    *,
+    zone_mph_ranges: dict[str, tuple[float, float]] | None = None,
+) -> None:
+    """
+    Write ``*_pace_map.html`` referencing ``geojson_filename`` (basename only).
+
+    ``zone_mph_ranges`` fills the mph span next to each speed-zone swatch on the exported map legend.
+    The HTML body is mostly a large f-string: only ``{geojson_filename}``, ``{title}``,
+    ``{legend_inner_js}`` are interpolated; every other curly brace belongs to Leaflet/CSS/JS so it is doubled.
+    """
+    zr = zone_mph_ranges or {}
+    legend_inner = (
+        "<div><strong>Speed zones</strong></div>"
+        + _legend_speed_zone_html("Slowdown zone", "#d73027", "slowdown", zr)
+        + _legend_speed_zone_html("Steady zone", "#fdae61", "steady", zr)
+        + _legend_speed_zone_html("Speed-up zone", "#1a9850", "speed-up", zr)
+        + '<hr style="margin:6px 0;border:0;border-top:1px solid #ddd;">'
+        + "<div><strong>Elevation gain</strong></div>"
+        + '<div><span class="swatch" style="background:#6baed6"></span>Flat / downhill</div>'
+        + '<div><span class="swatch" style="background:#c7e9c0"></span>Low uphill gain</div>'
+        + '<div><span class="swatch" style="background:#31a354"></span>High uphill gain</div>'
+        + '<div><span class="swatch" style="background:#006d2c"></span>Very high uphill gain</div>'
+    )
+    # Embed as one JS string literal — avoids juggling quotes inside the Leaflet snippet below.
+    legend_inner_js = json.dumps(legend_inner)
+
     html = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -93,6 +178,23 @@ def write_html_map(output_html: Path, geojson_filename: str, title: str) -> None
       margin-right: 6px;
       vertical-align: middle;
     }}
+    @media print {{
+      body {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
+      #map {{ height: 100vh !important; width: 100% !important; page-break-inside: avoid; }}
+      /* Print/PDF: hide map chrome only. Hiding `.leaflet-control-container` would also drop the pace legend. */
+      .leaflet-control-zoom,
+      .leaflet-control-layers,
+      .leaflet-control-expand,
+      .leaflet-control-attribution {{
+        display: none !important;
+      }}
+      .leaflet-bottom.leaflet-right .leaflet-control.pace-map-legend {{
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        break-inside: avoid;
+      }}
+    }}
   </style>
 </head>
 <body>
@@ -112,6 +214,7 @@ def write_html_map(output_html: Path, geojson_filename: str, title: str) -> None
       attribution: 'Map data: &copy; OpenStreetMap contributors, SRTM | Map style: &copy; OpenTopoMap'
     }});
 
+    // Two overlays share one FeatureCollection: speed paints stored zone_color; elevation rescales uplift hue.
     const speedLayerGroup = L.layerGroup().addTo(map);
     const elevationLayerGroup = L.layerGroup();
 
@@ -125,6 +228,7 @@ def write_html_map(output_html: Path, geojson_filename: str, title: str) -> None
       return '#006d2c';
     }}
 
+    // Relative URL — keep GeoJSON sibling next to this file (outputs dir, Flask artifact folder, etc.).
     fetch('{geojson_filename}')
       .then(r => r.json())
       .then(data => {{
@@ -183,20 +287,10 @@ def write_html_map(output_html: Path, geojson_filename: str, title: str) -> None
         map.fitBounds(speedLayer.getBounds(), {{ padding: [20, 20] }});
       }});
 
-    const legend = L.control({{position: 'bottomright'}});
+    const legend = L.control({{position: 'bottomright', className: 'pace-map-legend'}});
     legend.onAdd = function() {{
       const div = L.DomUtil.create('div', 'legend');
-      div.innerHTML =
-        '<div><strong>Speed zones</strong></div>' +
-        '<div><span class="swatch" style="background:#d73027"></span>Slowdown zone</div>' +
-        '<div><span class="swatch" style="background:#fdae61"></span>Steady zone</div>' +
-        '<div><span class="swatch" style="background:#1a9850"></span>Speed-up zone</div>' +
-        '<hr style="margin:6px 0;border:0;border-top:1px solid #ddd;">' +
-        '<div><strong>Elevation gain</strong></div>' +
-        '<div><span class="swatch" style="background:#6baed6"></span>Flat / downhill</div>' +
-        '<div><span class="swatch" style="background:#c7e9c0"></span>Low uphill gain</div>' +
-        '<div><span class="swatch" style="background:#31a354"></span>High uphill gain</div>' +
-        '<div><span class="swatch" style="background:#006d2c"></span>Very high uphill gain</div>';
+      div.innerHTML = {legend_inner_js};
       return div;
     }};
     legend.addTo(map);
@@ -204,5 +298,6 @@ def write_html_map(output_html: Path, geojson_filename: str, title: str) -> None
 </body>
 </html>
 """
+    # Matching ``*_pace_map.geojson`` file is emitted separately by ``write_geojson`` in the caller.
     output_html.parent.mkdir(parents=True, exist_ok=True)
     output_html.write_text(html, encoding="utf-8")

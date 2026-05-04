@@ -2,5 +2,5 @@ services:
   - type: web
     name: hiking-optimizer-ui
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
+    buildCommand: pip install -r requirements.txt && playwright install chromium
+    startCommand: gunicorn app:app --workers 2 --timeout 180

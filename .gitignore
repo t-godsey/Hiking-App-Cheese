@@ -1,3 +1,52 @@
+# Bytecode
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Install / build metadata
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Type checkers / linters (if used locally)
+.mypy_cache/
+.ruff_cache/
+
+# Environment and secrets (never commit real keys)
+.env
+.env.*
+!.env.example
+
+# Flask / local runs
+instance/
 web_runs/
+
+# Logs
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# JetBrains
+.idea/
+
+# VS Code (uncomment if you prefer local-only settings)
+# .vscode/

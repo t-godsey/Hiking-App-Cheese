@@ -16,6 +16,7 @@ PACE_MODEL_EPOCHS = 3200
 
 
 def default_pace_model_path() -> Path:
+    """On-disk weights next to this module (commit-friendly to skip training in production)."""
     return Path(__file__).resolve().parent / "pace_model.json"
 
 
@@ -36,6 +37,7 @@ def load_or_train_pace_model(cache_path: Path | None = None) -> tuple[LinearRegr
 
 
 def _try_load_pace_model(path: Path) -> tuple[LinearRegressionGD, float] | None:
+    """Return model + baseline if JSON matches current spec and tensor shapes."""
     if not path.is_file():
         return None
     try:
@@ -65,6 +67,7 @@ def _try_load_pace_model(path: Path) -> tuple[LinearRegressionGD, float] | None:
 
 
 def _save_pace_model(path: Path, model: LinearRegressionGD, baseline_mph: float) -> None:
+    """Persist scaler + intercept/weights so the next process can predict without fitting."""
     payload = {
         "spec_version": PACE_MODEL_SPEC_VERSION,
         "learning_rate": PACE_MODEL_LEARNING_RATE,
@@ -105,10 +108,12 @@ class LinearRegressionGD:
             self.feature_stds.append(stdev if stdev > 1e-12 else 1.0)
 
         x_scaled = [self._scale_row(row) for row in x]
+        # weights[0] = bias; weights[1:] line up with scaled features.
         self.weights = [0.0] * (n_features + 1)
         n = len(x)
 
         for _ in range(self.epochs):
+            # Full-batch MSE gradient for linear regression.
             grad = [0.0] * (n_features + 1)
             for row, y_true in zip(x_scaled, y):
                 y_pred = self.weights[0] + sum(
@@ -141,6 +146,7 @@ class LinearRegressionGD:
 
 
 def build_training_data() -> tuple[list[list[float]], list[float]]:
+    """Synthetic (grade, weight) → speed pairs; fixed seed for reproducible cache files."""
     random.seed(42)
     x: list[list[float]] = []
     y: list[float] = []
@@ -158,11 +164,13 @@ def build_training_data() -> tuple[list[list[float]], list[float]]:
 
 
 def segment_features(segment: Segment, weight_lbs: float) -> list[float]:
+    """Feature vector aligned with columns used in build_training_data."""
     g = segment.grade_pct
     return [g, abs(g), g * g, weight_lbs, weight_lbs * weight_lbs, g * weight_lbs]
 
 
 def _synthetic_true_speed_mph(grade_pct: float, weight_lbs: float) -> float:
+    """Hand-tuned hill + load response; regression learns to approximate this surface."""
     base = 3.0
     uphill_penalty = max(0.0, grade_pct) * 0.11
     downhill_bonus = max(0.0, -grade_pct) * 0.035

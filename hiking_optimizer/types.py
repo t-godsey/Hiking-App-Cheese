@@ -5,6 +5,8 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class TrackPoint:
+    """One GPX trackpoint with latitude, longitude, elevation (meters)."""
+
     lat: float
     lon: float
     ele_m: float
@@ -12,6 +14,8 @@ class TrackPoint:
 
 @dataclass(frozen=True)
 class Segment:
+    """Single trail step between consecutive trackpoints (great-circle length and grade)."""
+
     idx: int
     start: TrackPoint
     end: TrackPoint
@@ -24,6 +28,8 @@ class Segment:
 
 @dataclass(frozen=True)
 class Zone:
+    """Contiguous pace zone along the route (after merging short runs), distances in miles."""
+
     start_mile: float
     end_mile: float
     zone_type: str

@@ -5,15 +5,25 @@ from __future__ import annotations
 from pathlib import Path
 
 from .constants import METERS_TO_FEET, METERS_TO_MILES
-from .exporters import write_csv, write_geojson, write_html_map
+from .exporters import pace_zone_mph_ranges, write_csv, write_geojson, write_html_map
 from .gpx_parser import build_segments, gpx_title, parse_gpx_points
 from .model import load_or_train_pace_model, segment_features
-from .zones import apply_quantile_zone_refinement, classify_pace_zone, summarize_zones
+from .zones import (
+    apply_quantile_zone_refinement,
+    classify_pace_zone,
+    merge_short_zone_runs,
+    summarize_zones,
+)
 
 
 def run_backend_job(
-    gpx_path: Path, weight_lbs: float, max_speed_mph: float, out_dir: Path
+    gpx_path: Path,
+    weight_lbs: float,
+    max_speed_mph: float,
+    out_dir: Path,
+    min_zone_run_m: float = 200.0,
 ) -> dict[str, float | int | str | Path]:
+    """End-to-end optimize: parse GPX → predict speeds → refine zones → write artifacts; returns summary dict."""
     if weight_lbs <= 0:
         raise ValueError("weight-lbs must be positive.")
     if max_speed_mph <= 0:
@@ -23,6 +33,7 @@ def run_backend_job(
     points = parse_gpx_points(gpx_path)
     segments = build_segments(points)
 
+    # Cached linear model + training-label mean (used before quantile refinement for initial colors).
     model, baseline = load_or_train_pace_model()
 
     segment_rows: list[dict[str, float | str]] = []
@@ -33,6 +44,7 @@ def run_backend_job(
 
     for seg in segments:
         raw_pred = model.predict(segment_features(seg, weight_lbs))
+        # Floor/cap keeps predictions in a plausible hiking range and respects user max speed.
         recommended_speed = max(0.7, min(max_speed_mph, raw_pred))
         zone_type, zone_color = classify_pace_zone(recommended_speed, baseline)
 
@@ -63,7 +75,9 @@ def run_backend_job(
         if seg.elev_delta_m > 0:
             total_gain += seg.elev_delta_m
 
+    # Trail-relative buckets (p25 / p75) replace baseline-based zone tags for map colors.
     apply_quantile_zone_refinement(segment_rows)
+    merge_short_zone_runs(segment_rows, min_run_distance_m=min_zone_run_m)
     zones = summarize_zones(segment_rows)
 
     avg_speed = weighted_speed_sum / total_distance if total_distance > 0 else 0.0
@@ -77,7 +91,12 @@ def run_backend_job(
 
     write_csv(csv_path, segment_rows)
     write_geojson(geojson_path, segment_rows)
-    write_html_map(html_path, geojson_path.name, title=title)
+    write_html_map(
+        html_path,
+        geojson_path.name,
+        title=title,
+        zone_mph_ranges=pace_zone_mph_ranges(segment_rows),
+    )
 
     return {
         "title": title,
@@ -98,8 +117,17 @@ def run_backend_job(
     }
 
 
-def run_backend(gpx_path: Path, weight_lbs: float, max_speed_mph: float, out_dir: Path) -> None:
-    result = run_backend_job(gpx_path, weight_lbs, max_speed_mph, out_dir)
+def run_backend(
+    gpx_path: Path,
+    weight_lbs: float,
+    max_speed_mph: float,
+    out_dir: Path,
+    min_zone_run_m: float = 200.0,
+) -> None:
+    """CLI wrapper around run_backend_job: same work, formatted stdout summary."""
+    result = run_backend_job(
+        gpx_path, weight_lbs, max_speed_mph, out_dir, min_zone_run_m=min_zone_run_m
+    )
     title = str(result["title"])
     total_distance = float(result["total_distance_m"])
     total_gain = float(result["total_gain_m"])

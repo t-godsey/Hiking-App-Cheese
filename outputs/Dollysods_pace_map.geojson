@@ -272,8 +272,8 @@
         "elev_delta_m": 2.9300000000000637,
         "grade_pct": 2.828858769164987,
         "recommended_speed_mph": 2.5550801311156697,
-        "zone": "slowdown",
-        "zone_color": "#d73027"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -747,8 +747,8 @@
         "elev_delta_m": 0.020000000000209184,
         "grade_pct": 0.018980443658269126,
         "recommended_speed_mph": 2.8333111967283173,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {
@@ -822,8 +822,8 @@
         "elev_delta_m": 0.07999999999992724,
         "grade_pct": 0.09641395014439218,
         "recommended_speed_mph": 2.825799535314747,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {
@@ -1022,8 +1022,8 @@
         "elev_delta_m": 1.8800000000001091,
         "grade_pct": 1.7987266904644936,
         "recommended_speed_mph": 2.6584319928340268,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {
@@ -1497,8 +1497,8 @@
         "elev_delta_m": 0.5600000000001728,
         "grade_pct": 2.395591009167989,
         "recommended_speed_mph": 2.598739667323351,
-        "zone": "slowdown",
-        "zone_color": "#d73027"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -1847,8 +1847,8 @@
         "elev_delta_m": -1.2000000000000455,
         "grade_pct": -2.5696166756562078,
         "recommended_speed_mph": 2.862823401683788,
-        "zone": "speed-up",
-        "zone_color": "#1a9850"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -2772,8 +2772,8 @@
         "elev_delta_m": -4.800000000000182,
         "grade_pct": -17.05121431531116,
         "recommended_speed_mph": 2.8370431672277903,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
       }
     },
     {
@@ -3022,8 +3022,8 @@
         "elev_delta_m": -8.190000000000055,
         "grade_pct": -16.74818735837979,
         "recommended_speed_mph": 2.8407447205243956,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
       }
     },
     {
@@ -3272,8 +3272,8 @@
         "elev_delta_m": 1.990000000000009,
         "grade_pct": 4.886302997096911,
         "recommended_speed_mph": 2.343984043323985,
-        "zone": "slowdown",
-        "zone_color": "#d73027"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -3597,8 +3597,8 @@
         "elev_delta_m": -1.7799999999999727,
         "grade_pct": -3.258875995269612,
         "recommended_speed_mph": 2.8685929094691973,
-        "zone": "speed-up",
-        "zone_color": "#1a9850"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -3797,8 +3797,8 @@
         "elev_delta_m": -1.0699999999999363,
         "grade_pct": -2.3134492852153534,
         "recommended_speed_mph": 2.860500885647211,
-        "zone": "speed-up",
-        "zone_color": "#1a9850"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -4047,8 +4047,8 @@
         "elev_delta_m": -1.8199999999999363,
         "grade_pct": -1.4625482056004306,
         "recommended_speed_mph": 2.8520929846692686,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
       }
     },
     {
@@ -5197,8 +5197,8 @@
         "elev_delta_m": 0.7300000000000182,
         "grade_pct": 1.2679757599725405,
         "recommended_speed_mph": 2.7110718591025194,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {
@@ -5222,8 +5222,8 @@
         "elev_delta_m": -0.5900000000001455,
         "grade_pct": -0.8325601055587368,
         "recommended_speed_mph": 2.8451813419830847,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {
@@ -5372,8 +5372,8 @@
         "elev_delta_m": -1.4299999999998363,
         "grade_pct": -1.9610485157176105,
         "recommended_speed_mph": 2.857148042475923,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {
@@ -5397,8 +5397,8 @@
         "elev_delta_m": -0.03000000000020009,
         "grade_pct": -0.03404139499813802,
         "recommended_speed_mph": 2.835581221061796,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {
@@ -5422,8 +5422,8 @@
         "elev_delta_m": 0.8600000000001273,
         "grade_pct": 2.3036244816670832,
         "recommended_speed_mph": 2.6079714021586775,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {
@@ -5672,8 +5672,8 @@
         "elev_delta_m": 3.380000000000109,
         "grade_pct": 9.65153388528821,
         "recommended_speed_mph": 1.8311383071384115,
-        "zone": "slowdown",
-        "zone_color": "#d73027"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -6297,8 +6297,8 @@
         "elev_delta_m": 1.9300000000000637,
         "grade_pct": 2.4039219165860106,
         "recommended_speed_mph": 2.597902783668768,
-        "zone": "slowdown",
-        "zone_color": "#d73027"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -6347,8 +6347,8 @@
         "elev_delta_m": 1.759999999999991,
         "grade_pct": 2.5184978680489727,
         "recommended_speed_mph": 2.586382660039924,
-        "zone": "slowdown",
-        "zone_color": "#d73027"
+        "zone": "steady",
+        "zone_color": "#fdae61"
       }
     },
     {
@@ -6822,8 +6822,8 @@
         "elev_delta_m": -0.38000000000010914,
         "grade_pct": -0.34026842611952424,
         "recommended_speed_mph": 2.8393737588410306,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "speed-up",
+        "zone_color": "#1a9850"
       }
     },
     {
@@ -6897,8 +6897,8 @@
         "elev_delta_m": 3.7200000000000273,
         "grade_pct": 2.2709606835119316,
         "recommended_speed_mph": 2.611247246021239,
-        "zone": "steady",
-        "zone_color": "#fdae61"
+        "zone": "slowdown",
+        "zone_color": "#d73027"
       }
     },
     {

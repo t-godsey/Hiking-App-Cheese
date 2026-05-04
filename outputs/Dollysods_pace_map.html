@@ -28,6 +28,11 @@
       margin-right: 6px;
       vertical-align: middle;
     }
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      #map { height: 100vh !important; width: 100% !important; page-break-inside: avoid; }
+      .leaflet-control-container { display: none !important; }
+    }
   </style>
 </head>
 <body>
@@ -121,17 +126,7 @@
     const legend = L.control({position: 'bottomright'});
     legend.onAdd = function() {
       const div = L.DomUtil.create('div', 'legend');
-      div.innerHTML =
-        '<div><strong>Speed zones</strong></div>' +
-        '<div><span class="swatch" style="background:#d73027"></span>Slowdown zone</div>' +
-        '<div><span class="swatch" style="background:#fdae61"></span>Steady zone</div>' +
-        '<div><span class="swatch" style="background:#1a9850"></span>Speed-up zone</div>' +
-        '<hr style="margin:6px 0;border:0;border-top:1px solid #ddd;">' +
-        '<div><strong>Elevation gain</strong></div>' +
-        '<div><span class="swatch" style="background:#6baed6"></span>Flat / downhill</div>' +
-        '<div><span class="swatch" style="background:#c7e9c0"></span>Low uphill gain</div>' +
-        '<div><span class="swatch" style="background:#31a354"></span>High uphill gain</div>' +
-        '<div><span class="swatch" style="background:#006d2c"></span>Very high uphill gain</div>';
+      div.innerHTML = "<div><strong>Speed zones</strong></div><div><span class=\"swatch\" style=\"background:#d73027\"></span>Slowdown zone <span style=\"font-weight:600;color:#333;\">(1.1\u20132.9 mph)</span></div><div><span class=\"swatch\" style=\"background:#fdae61\"></span>Steady zone <span style=\"font-weight:600;color:#333;\">(1.8\u20132.9 mph)</span></div><div><span class=\"swatch\" style=\"background:#1a9850\"></span>Speed-up zone <span style=\"font-weight:600;color:#333;\">(2.8\u20132.9 mph)</span></div><hr style=\"margin:6px 0;border:0;border-top:1px solid #ddd;\"><div><strong>Elevation gain</strong></div><div><span class=\"swatch\" style=\"background:#6baed6\"></span>Flat / downhill</div><div><span class=\"swatch\" style=\"background:#c7e9c0\"></span>Low uphill gain</div><div><span class=\"swatch\" style=\"background:#31a354\"></span>High uphill gain</div><div><span class=\"swatch\" style=\"background:#006d2c\"></span>Very high uphill gain</div>";
       return div;
     };
     legend.addTo(map);

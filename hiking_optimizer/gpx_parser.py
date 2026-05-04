@@ -11,6 +11,7 @@ from .types import Segment, TrackPoint
 
 
 def parse_gpx_points(gpx_path: Path) -> list[TrackPoint]:
+    """Extract ordered trackpoints that include lat, lon, and elevation."""
     try:
         tree = ET.parse(gpx_path)
     except FileNotFoundError:
@@ -36,6 +37,7 @@ def parse_gpx_points(gpx_path: Path) -> list[TrackPoint]:
 
 
 def gpx_title(gpx_path: Path) -> str:
+    """Prefer GPX track/metadata name; fallback to file stem."""
     try:
         tree = ET.parse(gpx_path)
     except Exception:
@@ -50,6 +52,7 @@ def gpx_title(gpx_path: Path) -> str:
 
 
 def build_segments(points: list[TrackPoint]) -> list[Segment]:
+    """Pair successive points into segments; skips sub-meter hops to stabilize grade%."""
     segments: list[Segment] = []
     cumulative = 0.0
 
@@ -82,6 +85,7 @@ def build_segments(points: list[TrackPoint]) -> list[Segment]:
 
 
 def _haversine_distance_m(p1: TrackPoint, p2: TrackPoint) -> float:
+    """Great-circle distance on a spherical earth (adequate for hike-scale GPX)."""
     earth_radius_m = 6371000.0
     lat1 = math.radians(p1.lat)
     lat2 = math.radians(p2.lat)
